@@ -1,0 +1,9 @@
+header {
+  position: fixed;
+  max-width: 500px;
+}
+
+main {
+	position: absolute;
+	left: 600px;
+}
