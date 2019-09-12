@@ -1,6 +1,8 @@
-- item__name: "Item Name 1"
-  item__image: "This is an image."
-  item__description: "This is a description."
+- item__name: "UA 6176"
+  item__image: /assets/images/ua_6176_small.jpeg
+  item__description: "The Universal Audio 6176 is a tube channel strip. 
+  It contains a preamp and shelving EQ on the left and a compressor on the right. 
+  It tends to give audio passed through it a smooth, warm sound."
 
 - item__name: "Item Name 2"
   item__image: "This is an image."

@@ -15,12 +15,14 @@ h5,
 h6 {
   font-family: $heading-font-family;
   font-size: $perfect-fourth;
+  font-weight: 500;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
 }
 
 .heading--big {
   font-size: 4em;
+  font-weight: 700;
   margin-bottom: .25em;
 }
 
