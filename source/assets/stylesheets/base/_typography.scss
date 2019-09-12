@@ -14,9 +14,14 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: modular-scale(1.333);
+  font-size: $perfect-fourth;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
+}
+
+.heading--big {
+  font-size: 4em;
+  margin-bottom: .25em;
 }
 
 p {
@@ -24,12 +29,13 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: $shady-lady;
+  text-decoration: none;
   text-decoration-skip: ink;
   transition: color $base-duration $base-timing;
 
   &:hover {
-    color: shade($action-color, 25%);
+    color: $action-color;
   }
 
   &:focus {
