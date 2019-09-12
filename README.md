@@ -1,4 +1,4 @@
-# Project Name
+# Lots of Gear
 
 This app is built with [Middleman].
 
