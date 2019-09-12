@@ -1,5 +1,5 @@
 // Typography
-$base-font-family: $font-stack-system;
+$base-font-family: 'Rubik', sans-serif;
 $heading-font-family: $base-font-family;
 
 // Line height
@@ -13,21 +13,23 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #1565c0;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+$mortar: #4C4053;
+$weather: #29508A;
+$shady-lady: #6D6C71;
+$light-grey: #C8C8C8;
+$white-grey: #F8F8F8;
+$kim: #E1D0CA;
 
 // Font Colors
-$base-font-color: $dark-gray;
-$action-color: $blue;
+$base-font-color: $mortar;
+$action-color: $weather;
 
 // Border
-$base-border-color: $light-gray;
+$base-border-color: $light-grey;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: #fff;
+$viewport-background-color: $white-grey;
 
 // Focus
 $focus-outline-color: transparentize($action-color, 0.4);
