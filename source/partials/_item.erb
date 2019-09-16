@@ -1,10 +1,10 @@
 <div class="item" id="<%= parameterize(item["item__name"]) %>">
 
   <div class="item__main">
-    <h2><%= item["item__name"] %></h2>
-    <img src="/assets/images/<%= item["item__image"] %>" alt="">
+    <h2 class="item__name"><%= item["item__name"] %></h2>
+    <img class ="item__image" src="/assets/images/<%= item["item__image"] %>" alt="">
   </div>
 
-  <p><%= item["item__description"] %></p>
+  <p class="item__description"><%= item["item__description"] %></p>
 
 </div>

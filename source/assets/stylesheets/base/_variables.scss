@@ -6,20 +6,29 @@ $heading-font-family: $base-font-family;
 $base-line-height: 1.7;
 $heading-line-height: 1.2;
 
+// Spacing
+$base-spacing: 1.5rem;
+$half-spacing: $base-spacing / 2;
+$quarter-spacing: $base-spacing / 4;
+$double-spacing: $base-spacing * 2;
+$triple-spacing: $base-spacing * 3;
+$quadruple-spacing: $base-spacing * 4;
+
+// Z-Index
+$base-z-index: 0;
+$level-1-z-index: 0;
+
 // Other Sizes
 $base-border-radius: 3px;
-$base-spacing: 1.5em;
-$small-spacing: $base-spacing / 2;
-$base-z-index: 0;
 
 // Colors
 $color-mortar-purple: #4C4053;
 $color-weather-blue: #29508A;
 $color-dark-grey: #6D6C71;
+$color-kim: #E1D0CA;
 $color-mid-grey: #C8C8C8;
 $color-light-grey: #F0F0F0;
 $color-white-grey: #F8F8F8;
-$color-kim: #E1D0CA;
 
 // Font Colors
 $base-font-color: $color-mortar-purple;

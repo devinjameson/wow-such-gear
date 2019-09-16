@@ -1,7 +1,7 @@
 .item {
   margin-bottom: 7rem;
 
-  h2 {
+  .item__name {
   	background-color: $color-mortar-purple;
   	border-radius: .25rem;
   	color: $color-kim;
@@ -12,16 +12,16 @@
   	min-width: fit-content;
   	padding: .5rem 1rem;
   	white-space: nowrap;
-  	z-index: 20;
+  	z-index: $level-1-z-index;
   }
 
-  img {
+  .item__image {
+    border-radius: .25rem;
     grid-column: 3 / 11;
     grid-row: 2 / 11;
-    border-radius: .25rem;
   }
 
-  p {
+  .item__description {
   	color: $color-dark-grey;
   	grid-column: 2 / 9;
   	grid-row: 10;
@@ -33,5 +33,5 @@
 	display: grid;
 	grid-template-columns: repeat( auto-fit, minmax(10, 1fr));
   grid-template-columns: repeat( auto-fit, minmax(10, 1fr));
-  margin-bottom: 2rem;
+  margin-bottom: $double-spacing;
 }

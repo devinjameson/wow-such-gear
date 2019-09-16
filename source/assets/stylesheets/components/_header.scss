@@ -4,12 +4,12 @@
     background-color: $color-mid-grey;
     content: "";
     display: block;
-    margin: 2rem 0;
+    margin: $double-spacing 0;
     @include size(2rem, 2px);
   }
 }
 
-nav li {
-  margin-bottom: .5rem;
+.header__nav li {
+  margin-bottom: $half-spacing;
   font-size: .95em;
 }
