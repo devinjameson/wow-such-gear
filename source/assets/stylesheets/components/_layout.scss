@@ -1,17 +1,17 @@
 header {
-  max-width: 500px;
+  max-width: 33rem;
   position: fixed;
   padding: 2rem;
 }
 
 main {
-  background-color: #f0f0f0;
-  left: 500px;
+  background-color: $color-light-grey;
+  left: 35rem;
   padding: 3rem 2rem 3rem 2rem;
   position: absolute;
   right: 0;
 }
 
 .items {
-	max-width: 800px;
+	max-width: 50rem;
 }

@@ -4,12 +4,12 @@
     background-color: $color-mid-grey;
     content: "";
     display: block;
-    margin: 30px 0;
-    @include size(25px, 2px);
+    margin: 2rem 0;
+    @include size(2rem, 2px);
   }
 }
 
 nav li {
-  margin-bottom: 10px;
+  margin-bottom: .5rem;
   font-size: .95em;
 }
