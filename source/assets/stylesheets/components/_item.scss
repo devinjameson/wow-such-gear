@@ -1,38 +1,38 @@
 .item {
-  margin-bottom: 100px;
+  margin-bottom: 7rem;
 
   h2 {
-  	background-color: $mortar;
-	border-radius: 4px;
-	color: $kim;
-	font-size: 1.7em;
-	grid-column: 1 / 6;
-	grid-row: 3;
-	max-width: fit-content;
-	min-width: fit-content;
-	padding: 6px 12px;
-	white-space: nowrap;
-	z-index: 20;
+  	background-color: $color-mortar-purple;
+  	border-radius: .25rem;
+  	color: $color-kim;
+  	font-size: 1.7rem;
+  	grid-column: 1 / 6;
+  	grid-row: 3;
+  	max-width: fit-content;
+  	min-width: fit-content;
+  	padding: .5rem 1rem;
+  	white-space: nowrap;
+  	z-index: 20;
   }
 
   img {
     grid-column: 3 / 11;
     grid-row: 2 / 11;
-    border-radius: 5px
+    border-radius: .25rem;
   }
 
   p {
-	color: $shady-lady;
-	grid-column: 2 / 9;
-	grid-row: 10;
-	max-width: fit-content;
+  	color: $color-dark-grey;
+  	grid-column: 2 / 9;
+  	grid-row: 10;
+  	max-width: fit-content;
   }
 }
 
 .item__main {
 	display: grid;
 	grid-template-columns: repeat( auto-fit, minmax(10, 1fr));
-    grid-template-columns: repeat( auto-fit, minmax(10, 1fr));
-    margin-bottom: 25px;
+  grid-template-columns: repeat( auto-fit, minmax(10, 1fr));
+  margin-bottom: 2rem;
 }
 

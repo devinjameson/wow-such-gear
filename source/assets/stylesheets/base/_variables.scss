@@ -13,23 +13,24 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$mortar: #4C4053;
-$weather: #29508A;
-$shady-lady: #6D6C71;
-$light-grey: #C8C8C8;
-$white-grey: #F8F8F8;
-$kim: #E1D0CA;
+$color-mortar-purple: #4C4053;
+$color-weather-blue: #29508A;
+$color-dark-grey: #6D6C71;
+$color-mid-grey: #C8C8C8;
+$color-light-grey: #F0F0F0;
+$color-white-grey: #F8F8F8;
+$color-kim: #E1D0CA;
 
 // Font Colors
-$base-font-color: $mortar;
-$action-color: $weather;
+$base-font-color: $color-mortar-purple;
+$action-color: $color-weather-blue;
 
 // Border
-$base-border-color: $light-grey;
+$base-border-color: $color-mid-grey;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: $white-grey;
+$viewport-background-color: $color-white-grey;
 
 // Focus
 $focus-outline-color: transparentize($action-color, 0.4);
