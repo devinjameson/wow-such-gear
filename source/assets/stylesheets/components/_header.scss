@@ -12,4 +12,15 @@
 .header__nav li {
   margin-bottom: $half-spacing;
   font-size: .95em;
+
+  &.active a {
+    color: $color-weather-blue;
+    font-weight: 500;
+
+    &:before {
+      content: "→";
+      position: absolute;
+      left: $base-spacing;
+    }
+  }
 }
