@@ -1,10 +1,12 @@
 .item {
-  margin-bottom: 7rem;
+  margin-bottom: ($big-base-spacing) / 6;
+  padding-top: $double-spacing;
+  margin-top: -($double-spacing);
 
   .item__name {
-  	background-color: $color-mortar-purple;
+  	background-color: $color-kim-beige;
   	border-radius: .25rem;
-  	color: $color-kim;
+  	color: $color-mortar-purple;
   	font-size: 1.7rem;
   	grid-column: 1 / 6;
   	grid-row: 3;
@@ -23,9 +25,8 @@
 
   .item__description {
   	color: $color-dark-grey;
-  	grid-column: 2 / 9;
-  	grid-row: 10;
-  	max-width: fit-content;
+    margin-left: $quadruple-spacing;
+  	max-width: $big-base-spacing;
   }
 }
 
@@ -33,5 +34,5 @@
 	display: grid;
 	grid-template-columns: repeat( auto-fit, minmax(10, 1fr));
   grid-template-columns: repeat( auto-fit, minmax(10, 1fr));
-  margin-bottom: $double-spacing;
+  margin-bottom: $base-spacing;
 }

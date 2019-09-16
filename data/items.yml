@@ -1,65 +1,27 @@
 - item__name: "UA 6176"
   item__image: ua_6176_small.jpg
+  item__image-alt: ""
   item__description: "The Universal Audio 6176 is a tube channel strip. 
   It contains a preamp and shelving EQ on the left and a compressor on the right. 
   It tends to give audio passed through it a smooth, warm sound."
 
 - item__name: "Korg Minilogue"
   item__image: minilogue_small.jpg
+  item__image-alt: ""
   item__description: "The Korg Minilogue is a polyphonic synthesizer. 
   Its small form factor, wide range of tones, and full analog signal path 
   (excluding the onboard delay) make it one of the most popular modern synths."
 
 - item__name: "Volca Beats"
   item__image: volca_beats_small.jpg
+  item__image-alt: ""
   item__description: "The Volca Beats is a fun little analog drum machine. 
   It has a step sequencer and some interesting automation capabilities. 
   The “Stutter” function sounds particularly neat when set to process globally."
 
-- item__name: "Item Name 4"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 5"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 6"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 7"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 8"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 9"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 10"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 11"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 12"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 13"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 14"
-  item__image: ""
-  item__description: "This is a description."
-
-- item__name: "Item Name 15"
-  item__image: ""
-  item__description: "This is a description."
+- item__name: "Minimoog Model D"
+  item__image: "minimoog_model_d.jpg"
+  item__image-alt: ""
+  item__description: "The Minimoog Model D is one of the most beloved analog synths of all time.
+  It was, in fact, the first portable analog synth. Most subtractive synths of today take
+  cues from the Model D design language. It sounds nothing short of amazing."

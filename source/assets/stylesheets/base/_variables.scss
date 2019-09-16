@@ -14,6 +14,8 @@ $double-spacing: $base-spacing * 2;
 $triple-spacing: $base-spacing * 3;
 $quadruple-spacing: $base-spacing * 4;
 
+$big-base-spacing: 35rem;
+
 // Z-Index
 $base-z-index: 0;
 $level-1-z-index: 0;
@@ -25,8 +27,8 @@ $base-border-radius: 3px;
 $color-mortar-purple: #4C4053;
 $color-weather-blue: #29508A;
 $color-dark-grey: #6D6C71;
-$color-kim: #E1D0CA;
-$color-mid-grey: #C8C8C8;
+$color-kim-beige: #E1D0CA;
+$color-mid-grey: #B8B8B8;
 $color-light-grey: #F0F0F0;
 $color-white-grey: #F8F8F8;
 
@@ -39,7 +41,7 @@ $base-border-color: $color-mid-grey;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: $color-white-grey;
+$viewport-background-color: transparentize($color-kim-beige, 0.5);
 
 // Focus
 $focus-outline-color: transparentize($action-color, 0.4);
