@@ -14,22 +14,30 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: modular-scale(1);
+  font-size: $perfect-fourth;
+  font-weight: 500;
   line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $half-spacing;
+}
+
+.heading--big {
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: .25em;
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $half-spacing;
 }
 
 a {
-  color: $action-color;
+  color: $color-dark-grey;
+  text-decoration: none;
   text-decoration-skip: ink;
   transition: color $base-duration $base-timing;
 
   &:hover {
-    color: shade($action-color, 25%);
+    color: $action-color;
   }
 
   &:focus {

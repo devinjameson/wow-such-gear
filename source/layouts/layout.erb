@@ -8,11 +8,16 @@
     <%= stylesheet_link_tag "main" %>
   </head>
   <body>
-    <main role="main">
-      <%= yield %>
-      <%= partial "partials/header" %>
-      <%= partial "partials/nav" %>
+
+    <header>
+      <%= partial "partials/header__info" %>
+      <%= partial "partials/header__nav" %>
+    </header>
+
+    <main>
+      <%= partial "partials/items" %>
     </main>
+
     <%= partial "partials/analytics" %>
   </body>
 </html>

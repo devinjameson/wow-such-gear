@@ -1,0 +1,17 @@
+header {
+  max-width: ($big-base-spacing)-2;
+  position: fixed;
+  padding: $double-spacing;
+}
+
+main {
+  background-color: $color-light-grey;
+  left: $big-base-spacing;
+  padding: $triple-spacing $double-spacing;
+  position: absolute;
+  right: 0;
+}
+
+.items {
+	max-width: ($big-base-spacing) * 1.5;
+}

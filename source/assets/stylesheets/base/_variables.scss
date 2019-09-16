@@ -3,33 +3,45 @@ $base-font-family: 'Rubik', sans-serif;
 $heading-font-family: $base-font-family;
 
 // Line height
-$base-line-height: 1.5;
+$base-line-height: 1.7;
 $heading-line-height: 1.2;
+
+// Spacing
+$base-spacing: 1.5rem;
+$half-spacing: $base-spacing / 2;
+$quarter-spacing: $base-spacing / 4;
+$double-spacing: $base-spacing * 2;
+$triple-spacing: $base-spacing * 3;
+$quadruple-spacing: $base-spacing * 4;
+
+$big-base-spacing: 35rem;
+
+// Z-Index
+$base-z-index: 0;
+$level-1-z-index: 1;
 
 // Other Sizes
 $base-border-radius: 3px;
-$base-spacing: 1.5em;
-$small-spacing: $base-spacing / 2;
-$base-z-index: 0;
 
 // Colors
-$mortar: #4C4053;
-$weather: #29508A;
-$shady-lady: #6D6C71;
-$light-grey: #C8C8C8;
-$white-grey: #F8F8F8;
-$kim: #E1D0CA;
+$color-mortar-purple: #4C4053;
+$color-weather-blue: #29508A;
+$color-dark-grey: #6D6C71;
+$color-kim-beige: #E1D0CA;
+$color-mid-grey: #B8B8B8;
+$color-light-grey: #E8E8E8;
+$color-white-grey: #F8F8F8;
 
 // Font Colors
-$base-font-color: $mortar;
-$action-color: $weather;
+$base-font-color: $color-mortar-purple;
+$action-color: $color-weather-blue;
 
 // Border
-$base-border-color: $light-grey;
+$base-border-color: $color-mid-grey;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: $white-grey;
+$viewport-background-color: transparentize($color-kim-beige, 0.6);
 
 // Focus
 $focus-outline-color: transparentize($action-color, 0.4);

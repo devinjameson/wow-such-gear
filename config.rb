@@ -29,3 +29,9 @@ configure :production do
   activate :minify_html
   activate :minify_javascript
 end
+
+helpers do
+  def parameterize(contents)
+    contents.downcase.gsub("\s", "-").gsub(/[^a-z0-9-]/i, '')
+  end
+end

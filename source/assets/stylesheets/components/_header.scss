@@ -1,0 +1,15 @@
+.header__info {
+
+  &:after {
+    background-color: $color-mid-grey;
+    content: "";
+    display: block;
+    margin: $double-spacing 0;
+    @include size(2rem, 2px);
+  }
+}
+
+.header__nav li {
+  margin-bottom: $half-spacing;
+  font-size: .95em;
+}

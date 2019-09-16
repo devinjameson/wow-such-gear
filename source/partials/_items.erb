@@ -1,3 +1,5 @@
-<% data.items.each do |item| %>
-  <%= partial "partials/item", locals: { item: item } %>
-<% end %>
+<div class="items"> 
+	<% data.items.each do |item| %>
+	  <%= partial "partials/item", locals: { item: item } %>
+	<% end %>
+</div>
