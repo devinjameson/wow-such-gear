@@ -29,7 +29,7 @@ $color-weather-blue: #29508A;
 $color-dark-grey: #6D6C71;
 $color-kim-beige: #E1D0CA;
 $color-mid-grey: #B8B8B8;
-$color-light-grey: #F0F0F0;
+$color-light-grey: #E8E8E8;
 $color-white-grey: #F8F8F8;
 
 // Font Colors
@@ -41,7 +41,7 @@ $base-border-color: $color-mid-grey;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: transparentize($color-kim-beige, 0.5);
+$viewport-background-color: transparentize($color-kim-beige, 0.6);
 
 // Focus
 $focus-outline-color: transparentize($action-color, 0.4);
