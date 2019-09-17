@@ -22,7 +22,7 @@ $(document).ready(function(){
   // Store variables
 
   var lastID,
-      menuItems = $('*[data="header__nav"]').find("a"),
+      menuItems = $('[data-header__nav]').find("a"),
       scrollItems = menuItems.map(function(){
         var item = $($(this).attr("href"));
         if (item.length) { return item; }
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
 
-    var fromTop = $(this).scrollTop()+$('*[data="header__nav"]').outerHeight()+275;
+    var fromTop = $(this).scrollTop()+$('[data-header__nav]').outerHeight()+350;
     
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)
