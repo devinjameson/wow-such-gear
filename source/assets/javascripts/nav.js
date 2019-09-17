@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   // Add smooth scrolling to nav links
 
-  $('.header__nav a').on('click', function(e) {
+  $('*[data="header__nav-link"]').on('click', function(e) {
 
     // Prevent default behavior
 
@@ -13,7 +13,7 @@ $(document).ready(function(){
       {
         scrollTop: $($(this).attr('href')).offset().top-50,
       },
-      300,
+      600,
       'swing'
     );
 
@@ -22,7 +22,7 @@ $(document).ready(function(){
   // Store variables
 
   var lastID,
-      menuItems = $('.header__nav').find("a"),
+      menuItems = $('*[data="header__nav"]').find("a"),
       scrollItems = menuItems.map(function(){
         var item = $($(this).attr("href"));
         if (item.length) { return item; }
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
 
-    var fromTop = $(this).scrollTop()+$('.header__nav').outerHeight()+275;
+    var fromTop = $(this).scrollTop()+$('*[data="header__nav"]').outerHeight()+275;
     
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)

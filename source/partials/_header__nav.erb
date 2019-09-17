@@ -1,7 +1,7 @@
-<div class="header__nav">
+<div class="header__nav" data="header__nav">
   <ul>
     <% data.items.each do |item| %>
-      <li><a href="#<%= parameterize(item["item__name"]) %>"><%= item["item__name"] %></a></li>
+      <li class="header__item"><a href="#<%= parameterize(item["item__name"]) %>" data="header__nav-link"><%= item["item__name"] %></a></li>
     <% end %>
   </ul>
 </div>
