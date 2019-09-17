@@ -1,12 +1,9 @@
-.header__info {
+.header__info p {
+  max-width: $big-base-spacing;
+}
 
-  &:after {
-    background-color: $color-mid-grey;
-    content: "";
-    display: block;
-    margin: $double-spacing 0;
-    @include size(2rem, 2px);
-  }
+.header__nav {
+  display: none;
 }
 
 .header__item {
@@ -21,6 +18,32 @@
       content: "→";
       left: $base-spacing;
       position: absolute;
+    }
+  }
+}
+
+@media (min-width: $medium-screen) {
+  .header__info {
+
+    &:after {
+      background-color: $color-mid-grey;
+      content: "";
+      display: block;
+      margin: ($base-spacing * 1.5) 0;
+      @include size(2rem, 2px);
+    }
+  }
+
+  .header__nav {
+    display: block;
+  }
+}
+
+@media (min-width: $big-screen) {
+  .header__info {
+
+    &:after {
+      margin: $double-spacing 0;
     }
   }
 }

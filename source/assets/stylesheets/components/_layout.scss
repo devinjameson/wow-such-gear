@@ -1,17 +1,39 @@
 header {
-  max-width: ($big-base-spacing)-2;
-  position: fixed;
-  padding: $double-spacing;
+  display: block;
+  padding: ($base-spacing * 1.5) ($double-spacing / 1.25) $base-spacing;
 }
 
 main {
   background-color: $color-light-grey;
-  left: $big-base-spacing;
+  display: block;
   padding: $triple-spacing $double-spacing;
-  position: absolute;
-  right: 0;
 }
 
 .items {
 	max-width: ($big-base-spacing) * 1.5;
 }
+
+@media (min-width: $medium-screen) {
+  header {
+    max-width: $big-base-spacing / 1.25;
+    padding: $double-spacing;
+    position: fixed;
+  }
+
+  main {
+    left: $big-base-spacing / 1.25;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media (min-width: $big-screen) {
+  header {
+    max-width: ($big-base-spacing) - 2;
+  }
+
+  main {
+    left: $big-base-spacing;
+  }
+}
+
