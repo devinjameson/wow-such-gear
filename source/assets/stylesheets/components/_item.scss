@@ -5,7 +5,7 @@
   	background-color: $color-kim-beige;
   	border-radius: .25rem;
   	color: $color-mortar-purple;
-  	font-size: 1.7rem;
+  	font-size: 1.25rem;
   	grid-column: 1 / 6;
   	grid-row: 3;
   	padding: .5rem 1rem;
@@ -15,13 +15,12 @@
 
   .item__image {
     border-radius: .25rem;
-    grid-column: 3 / 11;
-    grid-row: 2 / 11;
+    grid-column: 2 / 11;
+    grid-row: 1 / 11;
   }
 
   .item__description {
   	color: $color-dark-grey;
-    margin-left: $quadruple-spacing;
   	max-width: $big-base-spacing;
   }
 }
@@ -31,4 +30,22 @@
 	grid-template-columns: repeat( auto-fit, minmax(10, 1fr));
   grid-template-columns: repeat( auto-fit, minmax(10, 1fr));
   margin-bottom: $base-spacing;
+}
+
+@media (min-width: $small-screen) {
+  .item {
+
+    .item__name {
+      font-size: 1.7rem;
+    }
+
+    .item__image {
+      grid-column: 3 / 11;
+      grid-row: 2 / 11;
+    }
+
+    .item__description {
+      margin-left: $quadruple-spacing;
+    }
+  }
 }

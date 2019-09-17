@@ -1,16 +1,26 @@
 header {
   display: block;
-  padding: ($base-spacing * 1.5) ($double-spacing / 1.25) $base-spacing;
+  padding: ($base-spacing * 1.5) ($base-spacing * 1.25) ($base-spacing / 1.25);
 }
 
 main {
   background-color: $color-light-grey;
   display: block;
-  padding: $triple-spacing $double-spacing;
+  padding: $base-spacing * 1.25;
 }
 
 .items {
-	max-width: ($big-base-spacing) * 1.5;
+	max-width: $big-base-spacing * 1.5;
+}
+
+@media (min-width: $small-screen) {
+  header {
+    padding: ($base-spacing * 1.5) ($double-spacing / 1.25) $base-spacing;
+  }
+
+  main {
+    padding: $triple-spacing ($double-spacing / 1.25);
+  }
 }
 
 @media (min-width: $medium-screen) {
