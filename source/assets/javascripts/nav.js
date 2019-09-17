@@ -1,24 +1,5 @@
 $(document).ready(function(){
 
-  // Add smooth scrolling to nav links
-
-  $('*[data="header__nav-link"]').on('click', function(e) {
-
-    // Prevent default behavior
-
-    e.preventDefault();
-
-    // Animate scroll
-    $('html, body').animate(
-      {
-        scrollTop: $($(this).attr('href')).offset().top-50,
-      },
-      600,
-      'swing'
-    );
-
-  });
-
   // Store variables
 
   var lastID,
