@@ -1,5 +1,5 @@
 .item {
-  margin-bottom: ($big-base-spacing) / 6;
+  margin-bottom: $big-base-spacing / 10;
 
   .item__name {
   	background-color: $color-kim-beige;
@@ -47,5 +47,11 @@
     .item__description {
       margin-left: $quadruple-spacing;
     }
+  }
+}
+
+@media (min-width: $big-screen) {
+  .item {
+    margin-bottom: $big-base-spacing / 6;
   }
 }
