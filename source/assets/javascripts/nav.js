@@ -1,5 +1,24 @@
 $(document).ready(function(){
 
+  // Menu toggle
+
+  $('[data-nav-toggle]').click(function() {
+    $(this).toggleClass('menu-open');
+    $('[data-nav-items]').slideToggle();
+  });
+
+  $(window).resize(function() {
+    if ($('[data-nav-toggle]').is(':hidden')) {
+      $('[data-nav-items]').show();
+    }
+  });
+
+  $(window).resize(function() {
+    if ($('[data-nav-items]').is(':visible') && $('[data-nav-toggle]').is(':visible')) {
+      $('[data-nav-toggle]').addClass('menu-open');
+    }
+  });
+    
   // Store variables
 
   var lastID,
@@ -13,8 +32,8 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
 
-    var fromTop = $(this).scrollTop()+$('[data-header-nav]').outerHeight()+350;
-    
+    var fromTop = $(this).scrollTop()+$('[data-header-nav]').outerHeight();
+  
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)
         return this;

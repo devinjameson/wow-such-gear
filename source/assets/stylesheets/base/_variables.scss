@@ -14,27 +14,26 @@ $spacing-2x: $base-spacing * 2;
 $spacing-3x: $base-spacing * 3;
 $spacing-4x: $base-spacing * 4;
 
-$base-spacing-big: $base-spacing * 23;
+$spacing-big: $base-spacing * 23;
 
 // Z-Index
 $base-z-index: 0;
 $level-1-z-index: 1;
+$level-2-z-index: 2;
 
 // Other Sizes
-$base-border-radius: 3px;
+$base-border-radius: 0;
 
 // Colors
 $color-almost-black: #333;
-$color-mortar-purple: #4c4053;
 $color-simple-red: #eb4034;
-$color-dark-grey: #6d6c71;
-$color-kim-beige: #e1d0ca;
+$color-dark-grey: #5a5a5c;
 $color-mid-grey: #b8b8b8;
-$color-light-grey: #e8e8e8;
+$color-light-grey: #e4e4e4;
 $color-white-grey: #f8f8f8;
 
 // Font Colors
-$base-font-color: $color-almost-black;
+$base-font-color: $color-white-grey;
 $action-color: $color-simple-red;
 
 // Border
@@ -42,7 +41,7 @@ $base-border-color: $color-mid-grey;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: transparentize($color-kim-beige, 0.6);
+$viewport-background-color: $color-dark-grey;
 
 // Focus
 $focus-outline-color: $action-color;

@@ -6,13 +6,13 @@ header {
   }
 
   @include breakpoint("medium") {
-    max-width: $base-spacing-big / 1.25;
+    max-width: $spacing-big / 1.25;
     padding: $spacing-2x;
     position: fixed;
   }
 
   @include breakpoint("large") {
-    max-width: ($base-spacing-big) - 2;
+    max-width: ($spacing-big) - 2;
   }
 }
 
@@ -21,20 +21,21 @@ main {
   padding: $base-spacing * 1.25;
 
   @include breakpoint("small") {
-    padding: $spacing-3x ($spacing-2x / 1.25);
+    padding: $spacing-2x ($spacing-2x / 1.25);
   }
 
   @include breakpoint("medium") {
-    left: $base-spacing-big / 1.25;
+    left: $spacing-big / 1.25;
+    padding: ($spacing-4x + 1) ($spacing-2x / 1.25);
     position: absolute;
     right: 0;
   }
 
   @include breakpoint("large") {
-    left: $base-spacing-big;
+    left: $spacing-big;
   }
 }
 
 .items {
-	max-width: $base-spacing-big * 1.5;
+	max-width: $spacing-big * 1.5;
 }

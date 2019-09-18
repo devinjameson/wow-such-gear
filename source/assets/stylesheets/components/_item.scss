@@ -1,50 +1,51 @@
 .item {
-  margin-bottom: $base-spacing-big / 10;
+  margin-bottom: $spacing-big / 10;
 
   @include breakpoint("large") {
-    margin-bottom: $base-spacing-big / 6;
+    margin-bottom: $spacing-big / 6;
   }
 
-  .item__name {
-  	background-color: $color-kim-beige;
-  	border-radius: 0.25rem;
-  	color: $color-mortar-purple;
-  	font-size: 1rem;
-  	grid-column: 1 / 6;
-  	grid-row: 2;
-  	padding: 0.25rem 0.75rem;
-  	white-space: nowrap;
-  	z-index: $level-1-z-index;
+}
 
-    @include breakpoint("x-small") {
-      font-size: 1.25rem;
-    }
+.item__name {
+	background-color: $color-dark-grey;
+	border-radius: 0.25rem;
+	color: $color-light-grey;
+	font-size: 1rem;
+	grid-column: 1 / 6;
+	grid-row: 2;
+	padding: 0.25rem 0.75rem;
+	white-space: nowrap;
+	z-index: $level-1-z-index;
 
-    @include breakpoint("small") {
-      font-size: 1.7rem;
-      grid-row: 3;
-      padding: .5rem 1rem;
-    }
+  @include breakpoint("x-small") {
+    font-size: 1.25rem;
   }
 
-  .item__image {
-    border-radius: 0.25rem;
-    grid-column: 2 / 11;
-    grid-row: 1 / 11;
-
-    @include breakpoint("small") {
-      grid-column: 3 / 11;
-      grid-row: 2 / 11;
-    }
+  @include breakpoint("small") {
+    font-size: 1.7rem;
+    grid-row: 3;
+    padding: .5rem 1rem;
   }
+}
 
-  .item__description {
-  	color: $color-dark-grey;
-  	max-width: $base-spacing-big;
+.item__image {
+  border-radius: 0.25rem;
+  grid-column: 2 / 11;
+  grid-row: 1 / 11;
 
-    @include breakpoint("small") {
-      margin-left: $spacing-4x;
-    }
+  @include breakpoint("small") {
+    grid-column: 3 / 11;
+    grid-row: 2 / 11;
+  }
+}
+
+.item__description {
+	color: $color-dark-grey;
+	max-width: $spacing-big;
+
+  @include breakpoint("small") {
+    margin-left: $spacing-4x;
   }
 }
 

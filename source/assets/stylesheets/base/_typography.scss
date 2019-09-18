@@ -39,13 +39,13 @@ p {
 }
 
 a {
-  color: $color-dark-grey;
+  color: $color-light-grey;
   text-decoration: none;
   text-decoration-skip: ink;
   transition: color $base-duration $base-timing;
 
   &:hover {
-    color: $action-color;
+    color: $color-dark-grey;
   }
 
   &:focus {

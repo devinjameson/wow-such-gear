@@ -2,14 +2,17 @@
 
   &:after {
 
+    background-color: $color-mid-grey;
+    content: "";
+    display: none;
+    margin: $base-spacing 0;
+    @include size(2rem, 2px);
+
     @include breakpoint("medium") {
-      background-color: $color-mid-grey;
-      content: "";
       display: block;
       margin: ($base-spacing * 1.5) 0;
-      @include size(2rem, 2px);
     }
-    
+
     @include breakpoint("large") {
       margin: $spacing-2x 0;
     }
@@ -17,18 +20,65 @@
 }
 
 .header__info p {
-  max-width: $base-spacing-big;
+  max-width: $spacing-big;
 }
 
 .header__nav {
-  display: none;
 
   @include breakpoint("medium") {
     display: block;
   }
+
+  ul {
+    background-color: $color-dark-grey;
+    border-top: 5px solid $color-simple-red;
+    bottom: 0;
+    display: none;
+    height: 80vh;
+    left: 0;
+    overflow: auto;
+    padding: $base-spacing $spacing-2x;
+    position: fixed;
+    text-align: right;
+    width: 100vw;
+    z-index: $level-2-z-index;
+
+    @include breakpoint("medium") {
+      background-color: transparent;
+      border: none;
+      display: block;
+      height: auto;
+      padding: 0;
+      position: static;    
+      text-align: left;
+    }
+  }
+
+  button {
+    background-color: $color-light-grey;
+    border: 3px solid $color-dark-grey;
+    border-radius: 1.5rem;
+    color: $color-dark-grey;
+    margin: $spacing-half 0 $base-spacing;
+    padding: ($spacing-quarter * 1.25) $spacing-half $spacing-quarter;
+    position: fixed;
+    right: $spacing-half;
+    top: $spacing-half;
+
+    &.menu-open {
+
+      &:before {
+        content: 'Hide ';
+      }
+    }
+
+    @include breakpoint("medium") {
+      display:none
+    }
+  }
 }
 
-.header__item {
+.header__nav-item {
   font-size: 0.95rem;
   margin-bottom: $spacing-half;
 
@@ -38,8 +88,14 @@
 
     &:before {
       content: "→";
-      left: $base-spacing;
+      right: $base-spacing;
       position: absolute;
+      transform: rotate(180deg);
+
+      @include breakpoint("medium") {
+        left: $base-spacing;
+        transform: rotate(0);
+      }
     }
   }
 }
