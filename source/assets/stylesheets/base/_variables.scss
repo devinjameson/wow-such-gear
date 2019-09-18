@@ -8,13 +8,13 @@ $heading-line-height: 1.2;
 
 // Spacing
 $base-spacing: 1.5rem;
-$half-spacing: $base-spacing / 2;
-$quarter-spacing: $base-spacing / 4;
-$double-spacing: $base-spacing * 2;
-$triple-spacing: $base-spacing * 3;
-$quadruple-spacing: $base-spacing * 4;
+$spacing-half: $base-spacing / 2;
+$spacing-quarter: $base-spacing / 4;
+$spacing-2x: $base-spacing * 2;
+$spacing-3x: $base-spacing * 3;
+$spacing-4x: $base-spacing * 4;
 
-$big-base-spacing: 35rem;
+$base-spacing-big: $base-spacing * 23;
 
 // Z-Index
 $base-z-index: 0;
@@ -56,18 +56,8 @@ $base-timing: ease;
 
 // Breakpoints
 $breakpoints: (
-  x-small: 20rem,
-  small: 40rem,
-  medium: 60rem,
-  large: 80rem
+  x-small: 20em,
+  small: 40em,
+  medium: 60em,
+  large: 80em
 );
-
-@mixin breakpoint($bp, $rule: min-width) {
-  @if map-has-key($breakpoints, $bp) {
-    @media screen and (#{$rule}: map-get($breakpoints, $bp)) {
-      @content;
-    }
-  } @else {
-    @error "Invalid breakpoint name `#{$bp}`.";
-  }
-}

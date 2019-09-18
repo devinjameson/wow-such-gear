@@ -21,21 +21,21 @@ h6 {
   font-size: $perfect-fourth;
   font-weight: 500;
   line-height: $heading-line-height;
-  margin: 0 0 $half-spacing;
+  margin: 0 0 $spacing-half;
 }
 
 .heading--big {
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
   
   @include breakpoint("large") {
-    font-size: 3.5em;
+    font-size: 3.5rem;
   }
 }
 
 p {
-  margin: 0 0 $half-spacing;
+  margin: 0 0 $spacing-half;
 }
 
 a {

@@ -11,13 +11,13 @@
     }
     
     @include breakpoint("large") {
-      margin: $double-spacing 0;
+      margin: $spacing-2x 0;
     }
   }
 }
 
 .header__info p {
-  max-width: $big-base-spacing;
+  max-width: $base-spacing-big;
 }
 
 .header__nav {
@@ -29,8 +29,8 @@
 }
 
 .header__item {
-  font-size: .95em;
-  margin-bottom: $half-spacing;
+  font-size: 0.95rem;
+  margin-bottom: $spacing-half;
 
   &.active a {
     color: $color-simple-red;
