@@ -1,5 +1,4 @@
 header {
-  display: block;
   padding: ($base-spacing * 1.5) ($base-spacing * 1.25) ($base-spacing / 1.25);
 
   @include breakpoint("small") {
@@ -19,7 +18,6 @@ header {
 
 main {
   background-color: $color-light-grey;
-  display: block;
   padding: $base-spacing * 1.25;
 
   @include breakpoint("small") {
