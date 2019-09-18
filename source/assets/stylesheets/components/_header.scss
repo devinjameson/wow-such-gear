@@ -9,7 +9,18 @@
   }
 }
 
-.header__nav li {
-  margin-bottom: $half-spacing;
+.header__item {
   font-size: .95em;
+  margin-bottom: $half-spacing;
+
+  &.active a {
+    color: $color-simple-red;
+    font-weight: 500;
+
+    &:before {
+      content: "→";
+      left: $base-spacing;
+      position: absolute;
+    }
+  }
 }

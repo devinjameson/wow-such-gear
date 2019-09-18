@@ -25,3 +25,31 @@
   item__description: "The Minimoog Model D is one of the most beloved analog synths of all time.
   It was, in fact, the first portable analog synth. Most subtractive synths of today take
   cues from the Model D design language. It sounds nothing short of amazing."
+
+- item__name: "Item A"
+  item__image: "minimoog_model_d.jpg"
+  item__image-alt: ""
+  item__description: "The Minimoog Model D is one of the most beloved analog synths of all time.
+  It was, in fact, the first portable analog synth. Most subtractive synths of today take
+  cues from the Model D design language. It sounds nothing short of amazing."
+
+- item__name: "Item B"
+  item__image: "minimoog_model_d.jpg"
+  item__image-alt: ""
+  item__description: "The Minimoog Model D is one of the most beloved analog synths of all time.
+  It was, in fact, the first portable analog synth. Most subtractive synths of today take
+  cues from the Model D design language. It sounds nothing short of amazing."
+
+- item__name: "Item C"
+  item__image: "minimoog_model_d.jpg"
+  item__image-alt: ""
+  item__description: "The Minimoog Model D is one of the most beloved analog synths of all time.
+  It was, in fact, the first portable analog synth. Most subtractive synths of today take
+  cues from the Model D design language. It sounds nothing short of amazing."
+
+- item__name: "Item D"
+  item__image: "minimoog_model_d.jpg"
+  item__image-alt: ""
+  item__description: "The Minimoog Model D is one of the most beloved analog synths of all time.
+  It was, in fact, the first portable analog synth. Most subtractive synths of today take
+  cues from the Model D design language. It sounds nothing short of amazing."

@@ -1,6 +1,11 @@
 html {
   background-color: $viewport-background-color;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
 }
 
 *,
@@ -16,4 +21,6 @@ body {
 
 body {
   display: flex;
+  flex-direction: column;
 }
+

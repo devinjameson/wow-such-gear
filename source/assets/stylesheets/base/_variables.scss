@@ -24,17 +24,17 @@ $level-1-z-index: 1;
 $base-border-radius: 3px;
 
 // Colors
-$color-mortar-purple: #4C4053;
-$color-weather-blue: #29508A;
-$color-dark-grey: #6D6C71;
-$color-kim-beige: #E1D0CA;
-$color-mid-grey: #B8B8B8;
-$color-light-grey: #E8E8E8;
-$color-white-grey: #F8F8F8;
+$color-mortar-purple: #4c4053;
+$color-simple-red: #eb4034;
+$color-dark-grey: #6d6c71;
+$color-kim-beige: #e1d0ca;
+$color-mid-grey: #b8b8b8;
+$color-light-grey: #e8e8e8;
+$color-white-grey: #f8f8f8;
 
 // Font Colors
 $base-font-color: $color-mortar-purple;
-$action-color: $color-weather-blue;
+$action-color: $color-simple-red;
 
 // Border
 $base-border-color: $color-mid-grey;
@@ -44,7 +44,7 @@ $base-border: 1px solid $base-border-color;
 $viewport-background-color: transparentize($color-kim-beige, 0.6);
 
 // Focus
-$focus-outline-color: transparentize($action-color, 0.4);
+$focus-outline-color: $action-color;
 $focus-outline-width: 3px;
 $focus-outline: $focus-outline-width solid $focus-outline-color;
 $focus-outline-offset: 2px;
