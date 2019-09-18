@@ -1,49 +1,42 @@
 header {
   display: block;
   padding: ($base-spacing * 1.5) ($base-spacing * 1.25) ($base-spacing / 1.25);
+
+  @include breakpoint("small") {
+    padding: ($base-spacing * 1.5) ($double-spacing / 1.25) $base-spacing;
+  }
+
+  @include breakpoint("medium") {
+    max-width: $big-base-spacing / 1.25;
+    padding: $double-spacing;
+    position: fixed;
+  }
+
+  @include breakpoint("large") {
+    max-width: ($big-base-spacing) - 2;
+  }
 }
 
 main {
   background-color: $color-light-grey;
   display: block;
   padding: $base-spacing * 1.25;
+
+  @include breakpoint("small") {
+    padding: $triple-spacing ($double-spacing / 1.25);
+  }
+
+  @include breakpoint("medium") {
+    left: $big-base-spacing / 1.25;
+    position: absolute;
+    right: 0;
+  }
+
+  @include breakpoint("large") {
+    left: $big-base-spacing;
+  }
 }
 
 .items {
 	max-width: $big-base-spacing * 1.5;
 }
-
-@media (min-width: $small-screen) {
-  header {
-    padding: ($base-spacing * 1.5) ($double-spacing / 1.25) $base-spacing;
-  }
-
-  main {
-    padding: $triple-spacing ($double-spacing / 1.25);
-  }
-}
-
-@media (min-width: $medium-screen) {
-  header {
-    max-width: $big-base-spacing / 1.25;
-    padding: $double-spacing;
-    position: fixed;
-  }
-
-  main {
-    left: $big-base-spacing / 1.25;
-    position: absolute;
-    right: 0;
-  }
-}
-
-@media (min-width: $big-screen) {
-  header {
-    max-width: ($big-base-spacing) - 2;
-  }
-
-  main {
-    left: $big-base-spacing;
-  }
-}
-

@@ -5,6 +5,10 @@ html {
   font-family: $base-font-family;
   font-size: 95%;
   line-height: $base-line-height;
+
+  @include breakpoint("large") {
+    font-size: 100%;
+  }
 }
 
 h1,
@@ -25,6 +29,10 @@ h6 {
   font-size: 2em;
   font-weight: 700;
   margin-bottom: 1rem;
+  
+  @include breakpoint("large") {
+    font-size: 3.5em;
+  }
 }
 
 p {
@@ -53,14 +61,4 @@ hr {
   border-right: 0;
   border-top: 0;
   margin: $base-spacing 0;
-}
-
-@media (min-width: $big-screen) {
-  html {
-    font-size: 100%;
-  }
-
-  .heading--big {
-    font-size: 3.5em;
-  }
 }

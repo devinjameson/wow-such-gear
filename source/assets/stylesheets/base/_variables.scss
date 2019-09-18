@@ -54,7 +54,20 @@ $focus-outline-offset: 2px;
 $base-duration: 150ms;
 $base-timing: ease;
 
-// Break Points
-$big-screen: 80rem;
-$medium-screen: 60rem;
-$small-screen: 40rem;
+// Breakpoints
+$breakpoints: (
+  x-small: 20rem,
+  small: 40rem,
+  medium: 60rem,
+  large: 80rem
+);
+
+@mixin breakpoint($bp, $rule: min-width) {
+  @if map-has-key($breakpoints, $bp) {
+    @media screen and (#{$rule}: map-get($breakpoints, $bp)) {
+      @content;
+    }
+  } @else {
+    @error "Invalid breakpoint name `#{$bp}`.";
+  }
+}
