@@ -2,6 +2,10 @@ html {
   background-color: $viewport-background-color;
   box-sizing: border-box;
   scroll-behavior: smooth;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
 }
 
 *,
@@ -20,8 +24,3 @@ body {
   flex-direction: column;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-}
