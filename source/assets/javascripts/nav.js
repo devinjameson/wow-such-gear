@@ -32,7 +32,7 @@ $(document).ready(function(){
     if ($('[data-nav-toggle]').is(':hidden')) {
       scrollOffset = 200;
     } else {
-      scrollOffset = -100;
+      scrollOffset = -250;
     }
 
     var fromTop = $(this).scrollTop()+$('[data-header-nav]').outerHeight()-scrollOffset;

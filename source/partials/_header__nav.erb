@@ -1,5 +1,5 @@
 <div class="header__nav" data-header-nav>
-  <button data-nav-toggle>Menu</button>
+  <button class="menu-button" data-nav-toggle>Menu</button>
   <ul data-nav-items>
     <% data.items.each do |item| %>
       <li class="header__nav-item"><a href="#<%= parameterize(item["item__name"]) %>"><%= item["item__name"] %></a></li>
