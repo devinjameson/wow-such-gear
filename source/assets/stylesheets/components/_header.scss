@@ -1,4 +1,5 @@
 .header__info {
+  color: $color-white-grey;
 
   &:after {
 
@@ -23,39 +24,10 @@
   max-width: $spacing-big;
 }
 
-.header__nav {
+.nav {
 
   @include breakpoint("medium") {
     display: block;
-  }
-
-  .header__nav-items {
-    background-color: $color-dark-grey;
-    border-top: 5px solid $color-simple-red;
-    bottom: 0;
-    display: none;
-    height: 80vh;
-    left: 0;
-    overflow: auto;
-    padding: $base-spacing $spacing-2x;
-    position: fixed;
-    text-align: right;
-    width: 100vw;
-    z-index: $level-2-z-index;
-
-    .header__nav-category {
-      list-style-type: none;
-    }
-
-    @include breakpoint("medium") {
-      background-color: transparent;
-      border: none;
-      display: block;
-      height: auto;
-      padding: 0;
-      position: static;    
-      text-align: left;
-    }
   }
 
   .menu-button {
@@ -82,7 +54,43 @@
   }
 }
 
-.header__nav-item {
+.nav__items {
+  background-color: $color-dark-grey;
+  border-top: 5px solid $color-simple-red;
+  bottom: 0;
+  display: none;
+  height: 80vh;
+  left: 0;
+  overflow: auto;
+  padding: $base-spacing $spacing-2x;
+  position: fixed;
+  text-align: right;
+  width: 100vw;
+  z-index: $level-2-z-index;
+
+    @include breakpoint("medium") {
+      background-color: transparent;
+      border: none;
+      display: block;
+      height: auto;
+      padding: 0;
+      position: static;    
+      text-align: left;
+    }
+}
+
+.nav__category {
+  list-style-type: none;
+}
+
+.nav__category-title {
+  color: $color-white-grey;
+  &:nth-of-type(n+2) {
+    margin-top: $base-spacing;
+  }
+}
+
+.nav__item {
   font-size: 0.95rem;
   margin-bottom: $spacing-half;
 

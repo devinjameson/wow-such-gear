@@ -20,6 +20,14 @@ main {
   background-color: $color-light-grey;
   padding: $base-spacing * 1.25;
 
+  .items {
+    max-width: $spacing-big * 1.5;
+  }
+
+  .item-category-title {
+    margin-bottom: $base-spacing;
+  }
+
   @include breakpoint("small") {
     padding: $spacing-2x ($spacing-2x / 1.25);
   }
@@ -34,8 +42,4 @@ main {
   @include breakpoint("large") {
     left: $spacing-big;
   }
-}
-
-.items {
-	max-width: $spacing-big * 1.5;
 }
