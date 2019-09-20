@@ -22,5 +22,8 @@ body {
 body {
   display: flex;
   flex-direction: column;
-}
 
+  @include breakpoint("medium") {
+    flex-direction: row;
+  }
+}

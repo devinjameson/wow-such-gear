@@ -8,32 +8,32 @@ $heading-line-height: 1.2;
 
 // Spacing
 $base-spacing: 1.5rem;
-$half-spacing: $base-spacing / 2;
-$quarter-spacing: $base-spacing / 4;
-$double-spacing: $base-spacing * 2;
-$triple-spacing: $base-spacing * 3;
-$quadruple-spacing: $base-spacing * 4;
+$spacing-half: $base-spacing / 2;
+$spacing-quarter: $base-spacing / 4;
+$spacing-2x: $base-spacing * 2;
+$spacing-3x: $base-spacing * 3;
+$spacing-4x: $base-spacing * 4;
 
-$big-base-spacing: 35rem;
+$spacing-big: $base-spacing * 23;
 
 // Z-Index
 $base-z-index: 0;
 $level-1-z-index: 1;
+$level-2-z-index: 2;
 
 // Other Sizes
-$base-border-radius: 3px;
+$base-border-radius: 0;
 
 // Colors
-$color-mortar-purple: #4c4053;
+$color-almost-black: #333;
 $color-simple-red: #eb4034;
-$color-dark-grey: #6d6c71;
-$color-kim-beige: #e1d0ca;
+$color-dark-grey: #5a5a5c;
 $color-mid-grey: #b8b8b8;
-$color-light-grey: #e8e8e8;
+$color-light-grey: #e4e4e4;
 $color-white-grey: #f8f8f8;
 
 // Font Colors
-$base-font-color: $color-mortar-purple;
+$base-font-color: $color-white-grey;
 $action-color: $color-simple-red;
 
 // Border
@@ -41,7 +41,7 @@ $base-border-color: $color-mid-grey;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: transparentize($color-kim-beige, 0.6);
+$viewport-background-color: $color-dark-grey;
 
 // Focus
 $focus-outline-color: $action-color;
@@ -52,3 +52,11 @@ $focus-outline-offset: 2px;
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+// Breakpoints
+$breakpoints: (
+  x-small: 20em,
+  small: 40em,
+  medium: 60em,
+  large: 80em
+);

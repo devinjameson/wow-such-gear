@@ -1,7 +1,8 @@
 <div class="header__nav" data-header-nav>
-  <ul>
+  <button class="menu-button" data-nav-toggle>Menu</button>
+  <ul data-nav-items>
     <% data.items.each do |item| %>
-      <li class="header__item"><a href="#<%= parameterize(item["item__name"]) %>"><%= item["item__name"] %></a></li>
+      <li class="header__nav-item"><a href="#<%= parameterize(item["item__name"]) %>"><%= item["item__name"] %></a></li>
     <% end %>
   </ul>
 </div>
