@@ -29,7 +29,7 @@
     display: block;
   }
 
-  ul {
+  .header__nav-items {
     background-color: $color-dark-grey;
     border-top: 5px solid $color-simple-red;
     bottom: 0;
@@ -42,6 +42,10 @@
     text-align: right;
     width: 100vw;
     z-index: $level-2-z-index;
+
+    .header__nav-category {
+      list-style-type: none;
+    }
 
     @include breakpoint("medium") {
       background-color: transparent;

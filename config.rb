@@ -31,7 +31,9 @@ configure :production do
 end
 
 helpers do
+
   def parameterize(contents)
     contents.downcase.gsub("\s", "-").gsub(/[^a-z0-9-]/i, '')
   end
+
 end

@@ -19,12 +19,13 @@ $(document).ready(function(){
   // Store variables
   var lastID,
       menuItems = $('[data-header-nav]').find("a"),
-      scrollItems = menuItems.map(function(){
+      scrollItems = menuItems.map(function() {
         var item = $($(this).attr("href"));
         if (item.length) { return item; }
       });
 
   // Track scroll function
+
   function trackScroll() {
 
     let scrollOffset;
