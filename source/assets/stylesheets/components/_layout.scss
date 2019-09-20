@@ -18,20 +18,42 @@ header {
 
 main {
   background-color: $color-light-grey;
-  padding: $base-spacing * 1.25;
+  padding: ($base-spacing * 1.25) ($base-spacing * 1.25) 0;
 
   @include breakpoint("small") {
-    padding: $spacing-2x ($spacing-2x / 1.25);
+    padding: $spacing-2x ($spacing-2x / 1.25) 0;
   }
 
   @include breakpoint("medium") {
     left: $spacing-big / 1.25;
-    padding: ($spacing-4x + 3) ($spacing-2x / 1.25);
+    padding: ($spacing-4x + 3) ($spacing-2x / 1.25) 0;
     position: absolute;
     right: 0;
   }
 
   @include breakpoint("large") {
     left: $spacing-big;
+  }
+}
+
+.footer {
+  color: $color-dark-grey;
+  font-size: .9rem;
+  max-width: $spacing-big * 1.5;
+  padding: $spacing-2x 0 $base-spacing;
+  text-align: center;
+
+  p {
+    margin: 0 auto $base-spacing;
+    max-width: $spacing-big - 6; 
+  }
+
+  &:before {
+    background-color: $color-dark-grey;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 0 auto $spacing-2x;
+    width: 2rem;
   }
 }
