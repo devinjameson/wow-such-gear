@@ -1,5 +1,10 @@
 <div class="items"> 
-	<% data.items.each do |item| %>
+  <h2 class="item-category-title">Outboard Hardware</h2>
+	<% data.items.outboard_hardware.each do |item| %>
 	  <%= partial "partials/item", locals: { item: item } %>
 	<% end %>
+  <h2 class="item-category-title">Synthesizers</h2>
+  <% data.items.synthesizers.each do |item| %>
+    <%= partial "partials/item", locals: { item: item } %>
+  <% end %>
 </div>

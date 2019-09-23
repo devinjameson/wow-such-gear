@@ -1,0 +1,96 @@
+.nav {
+
+  @include breakpoint("medium") {
+    display: block;
+  }
+}
+
+.menu-button, .menu-button:hover {
+  background-color: $color-light-grey;
+  border: 3px solid $color-dark-grey;
+  border-radius: 1.5rem;
+  color: $color-dark-grey;
+  margin: $spacing-half 0 $base-spacing;
+  padding: ($spacing-quarter * 1.25) $spacing-half $spacing-quarter;
+  position: fixed;
+  right: $spacing-half;
+  top: $spacing-half;
+
+  &.menu-open {
+
+    &:before {
+      content: 'Hide ';
+    }
+  }
+
+  @include breakpoint("medium") {
+    display:none
+  }
+}
+
+.nav__items {
+  background-color: $color-dark-grey;
+  border-top: 5px solid $color-simple-red;
+  bottom: 0;
+  display: none;
+  height: 80vh;
+  left: 0;
+  overflow-y: auto;
+  padding: $base-spacing $spacing-2x;
+  position: fixed;
+  text-align: right;
+  width: 100vw;
+  z-index: $level-2-z-index;
+
+  @include breakpoint("medium") {
+    background-color: transparent;
+    border: none;
+    display: block;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    padding: 0 6px 0;
+    position: static;    
+    text-align: left;
+    width: auto;
+
+    &::-webkit-scrollbar { 
+      width: 0 !important 
+    }
+  }
+}
+
+.nav__category {
+  list-style-type: none;
+}
+
+.nav__category-title {
+  color: $color-white-grey;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: $spacing-half;
+
+  &:nth-of-type(n+2) {
+    margin-top: $spacing-2x;
+  }
+}
+
+.nav__item {
+  font-size: 0.95rem;
+  margin-bottom: $spacing-half;
+
+  &.active a {
+    color: $color-simple-red;
+    font-weight: 500;
+
+    &:before {
+      content: "→";
+      margin-right: $spacing-half;
+      transform: rotate(180deg);
+
+      @include breakpoint("medium") {
+        left: $base-spacing;
+        transform: rotate(0);
+      }
+    }
+  }
+}

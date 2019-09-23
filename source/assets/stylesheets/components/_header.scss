@@ -1,4 +1,5 @@
 .header__info {
+  color: $color-white-grey;
 
   &:after {
 
@@ -17,85 +18,12 @@
       margin: $spacing-2x 0;
     }
   }
+
+  @include breakpoint("medium") {
+    padding-left: 6px;
+  }
 }
 
 .header__info p {
   max-width: $spacing-big;
-}
-
-.header__nav {
-
-  @include breakpoint("medium") {
-    display: block;
-  }
-
-  ul {
-    background-color: $color-dark-grey;
-    border-top: 5px solid $color-simple-red;
-    bottom: 0;
-    display: none;
-    height: 80vh;
-    left: 0;
-    overflow: auto;
-    padding: $base-spacing $spacing-2x;
-    position: fixed;
-    text-align: right;
-    width: 100vw;
-    z-index: $level-2-z-index;
-
-    @include breakpoint("medium") {
-      background-color: transparent;
-      border: none;
-      display: block;
-      height: auto;
-      padding: 0;
-      position: static;    
-      text-align: left;
-    }
-  }
-
-  .menu-button {
-    background-color: $color-light-grey;
-    border: 3px solid $color-dark-grey;
-    border-radius: 1.5rem;
-    color: $color-dark-grey;
-    margin: $spacing-half 0 $base-spacing;
-    padding: ($spacing-quarter * 1.25) $spacing-half $spacing-quarter;
-    position: fixed;
-    right: $spacing-half;
-    top: $spacing-half;
-
-    &.menu-open {
-
-      &:before {
-        content: 'Hide ';
-      }
-    }
-
-    @include breakpoint("medium") {
-      display:none
-    }
-  }
-}
-
-.header__nav-item {
-  font-size: 0.95rem;
-  margin-bottom: $spacing-half;
-
-  &.active a {
-    color: $color-simple-red;
-    font-weight: 500;
-
-    &:before {
-      content: "→";
-      right: $base-spacing;
-      position: absolute;
-      transform: rotate(180deg);
-
-      @include breakpoint("medium") {
-        left: $base-spacing;
-        transform: rotate(0);
-      }
-    }
-  }
 }

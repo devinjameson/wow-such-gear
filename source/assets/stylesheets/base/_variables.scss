@@ -1,6 +1,28 @@
+// Breakpoints
+$breakpoints: (
+  x-small: 20em,
+  small: 40em,
+  medium: 60em,
+  large: 80em
+);
+
 // Typography
 $base-font-family: 'Rubik', sans-serif;
 $heading-font-family: $base-font-family;
+$modular-scale-ratio: $major-second;
+
+// Modular Scale Bases
+$base-modular-scale-base: 0.8rem;
+$modular-scale-base-x-small: $base-modular-scale-base * 1.1;
+$modular-scale-base-small: $base-modular-scale-base * 1.3;
+$modular-scale-base-medium: $base-modular-scale-base * 1.4;
+$modular-scale-base-large: $base-modular-scale-base * 1.5;
+
+// Modular Scale Increments
+$modular-scale-increment-h1: 6;
+$modular-scale-increment-h2: 4;
+$modular-scale-increment-h3: 2;
+$modular-scale-increment-h4: 1;
 
 // Line height
 $base-line-height: 1.7;
@@ -21,19 +43,19 @@ $base-z-index: 0;
 $level-1-z-index: 1;
 $level-2-z-index: 2;
 
-// Other Sizes
+// Other sizes
 $base-border-radius: 0;
 
 // Colors
 $color-almost-black: #333;
-$color-simple-red: #eb4034;
-$color-dark-grey: #5a5a5c;
+$color-simple-red: #df2316;
+$color-dark-grey: #141415;
 $color-mid-grey: #b8b8b8;
 $color-light-grey: #e4e4e4;
 $color-white-grey: #f8f8f8;
 
 // Font Colors
-$base-font-color: $color-white-grey;
+$base-font-color: $color-almost-black;
 $action-color: $color-simple-red;
 
 // Border
@@ -52,11 +74,3 @@ $focus-outline-offset: 2px;
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
-
-// Breakpoints
-$breakpoints: (
-  x-small: 20em,
-  small: 40em,
-  medium: 60em,
-  large: 80em
-);

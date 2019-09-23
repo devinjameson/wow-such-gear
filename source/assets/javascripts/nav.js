@@ -19,7 +19,7 @@ $(document).ready(function(){
   // Store variables
   var lastID,
       menuItems = $('[data-header-nav]').find("a"),
-      scrollItems = menuItems.map(function(){
+      scrollItems = menuItems.map(function() {
         var item = $($(this).attr("href"));
         if (item.length) { return item; }
       });
@@ -30,12 +30,12 @@ $(document).ready(function(){
     let scrollOffset;
 
     if ($('[data-nav-toggle]').is(':hidden')) {
-      scrollOffset = 200;
+      scrollOffset = -300;
     } else {
-      scrollOffset = -250;
+      scrollOffset = -300;
     }
 
-    var fromTop = $(this).scrollTop()+$('[data-header-nav]').outerHeight()-scrollOffset;
+    var fromTop = $(this).scrollTop()+$('[data-header-info]').outerHeight()-scrollOffset;
   
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)
