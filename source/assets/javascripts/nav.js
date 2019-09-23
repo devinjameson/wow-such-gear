@@ -25,18 +25,9 @@ $(document).ready(function(){
       });
 
   // Track scroll function
-
   function trackScroll() {
 
-    let scrollOffset;
-
-    if ($('[data-nav-toggle]').is(':hidden')) {
-      scrollOffset = 200;
-    } else {
-      scrollOffset = -250;
-    }
-
-    var fromTop = $(this).scrollTop()+$('[data-header-nav]').outerHeight()-scrollOffset;
+    var fromTop = $(this).scrollTop()+$('[data-header-info]').outerHeight();
   
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)
