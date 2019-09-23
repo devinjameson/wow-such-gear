@@ -27,7 +27,15 @@ $(document).ready(function(){
   // Track scroll function
   function trackScroll() {
 
-    var fromTop = $(this).scrollTop()+$('[data-header-info]').outerHeight();
+    let scrollOffset;
+
+    if ($('[data-nav-toggle]').is(':hidden')) {
+      scrollOffset = -300;
+    } else {
+      scrollOffset = -300;
+    }
+
+    var fromTop = $(this).scrollTop()+$('[data-header-info]').outerHeight()-scrollOffset;
   
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)
