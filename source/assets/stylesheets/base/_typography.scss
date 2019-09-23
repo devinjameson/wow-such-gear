@@ -25,9 +25,13 @@ h6 {
 }
 
 .heading--big {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+
+  @include breakpoint("x-small") {
+    font-size: 2rem;
+  }
   
   @include breakpoint("large") {
     font-size: 3.5rem;
