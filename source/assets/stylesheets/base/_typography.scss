@@ -22,20 +22,85 @@ h4 {
 }
 
 h1 {
-  font-size: modular-scale(7, $modular-scale-base, $modular-scale);
+  font-size: modular-scale($modular-scale-increment-h1, $base-modular-scale-base, $modular-scale-ratio);
+
+  @include breakpoint("x-small") {
+    font-size: modular-scale($modular-scale-increment-h1, $modular-scale-base-x-small, $modular-scale-ratio);
+  }
+
+  @include breakpoint("small") {
+    font-size: modular-scale($modular-scale-increment-h1, $modular-scale-base-small, $modular-scale-ratio);
+  }
+
+  @include breakpoint("medium") {
+    font-size: modular-scale($modular-scale-increment-h1, $modular-scale-base-medium, $modular-scale-ratio);
+  }
+
+  @include breakpoint("large") {
+    font-size: modular-scale($modular-scale-increment-h1, $modular-scale-base-large, $modular-scale-ratio);
+  }
 }
 
 h2 {
-  font-size: modular-scale(5, $modular-scale-base, $modular-scale);
+  font-size: modular-scale($modular-scale-increment-h2, $base-modular-scale-base, $modular-scale-ratio);
+
+  @include breakpoint("x-small") {
+    font-size: modular-scale($modular-scale-increment-h2, $modular-scale-base-x-small, $modular-scale-ratio);
+  }
+
+  @include breakpoint("small") {
+    font-size: modular-scale($modular-scale-increment-h2, $modular-scale-base-small, $modular-scale-ratio);
+  }
+
+  @include breakpoint("medium") {
+    font-size: modular-scale($modular-scale-increment-h2, $modular-scale-base-medium, $modular-scale-ratio);
+  }
+
+  @include breakpoint("large") {
+    font-size: modular-scale($modular-scale-increment-h2, $modular-scale-base-large, $modular-scale-ratio);
+  }
 }
 
 h3 {
-  font-size: modular-scale(2, $modular-scale-base, $modular-scale);
+  font-size: modular-scale($modular-scale-increment-h3, $base-modular-scale-base, $modular-scale-ratio);
+
+  @include breakpoint("x-small") {
+    font-size: modular-scale($modular-scale-increment-h3, $modular-scale-base-x-small, $modular-scale-ratio);
+  }
+
+  @include breakpoint("small") {
+    font-size: modular-scale($modular-scale-increment-h3, $modular-scale-base-small, $modular-scale-ratio);
+  }
+
+  @include breakpoint("medium") {
+    font-size: modular-scale($modular-scale-increment-h3, $modular-scale-base-medium, $modular-scale-ratio);
+  }
+
+  @include breakpoint("large") {
+    font-size: modular-scale($modular-scale-increment-h3, $modular-scale-base-large, $modular-scale-ratio);
+  }
 }
 
 h4 {
-  font-size: modular-scale(1, $modular-scale-base, $modular-scale);
+  font-size: modular-scale($modular-scale-increment-h4, $base-modular-scale-base, $modular-scale-ratio);
+
+  @include breakpoint("x-small") {
+    font-size: modular-scale($modular-scale-increment-h4, $modular-scale-base-x-small, $modular-scale-ratio);
+  }
+
+  @include breakpoint("small") {
+    font-size: modular-scale($modular-scale-increment-h4, $modular-scale-base-small, $modular-scale-ratio);
+  }
+
+  @include breakpoint("medium") {
+    font-size: modular-scale($modular-scale-increment-h4, $modular-scale-base-medium, $modular-scale-ratio);
+  }
+
+  @include breakpoint("large") {
+    font-size: modular-scale($modular-scale-increment-h4, $modular-scale-base-large, $modular-scale-ratio);
+  }
 }
+
 
 p {
   margin: 0 0 $spacing-half;
