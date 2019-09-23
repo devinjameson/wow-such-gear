@@ -9,14 +9,14 @@ $breakpoints: (
 // Typography
 $base-font-family: 'Rubik', sans-serif;
 $heading-font-family: $base-font-family;
-$modular-scale-ratio: $minor-third;
+$modular-scale-ratio: $major-second;
 
 // Modular Scale Bases
-$base-modular-scale-base: 0.6rem;
-$modular-scale-base-x-small: 0.7rem;
-$modular-scale-base-small: 0.8rem;
-$modular-scale-base-medium: 0.9rem;
-$modular-scale-base-large: 1rem;
+$base-modular-scale-base: 0.8rem;
+$modular-scale-base-x-small: $base-modular-scale-base * 1.1;
+$modular-scale-base-small: $base-modular-scale-base * 1.3;
+$modular-scale-base-medium: $base-modular-scale-base * 1.4;
+$modular-scale-base-large: $base-modular-scale-base * 1.5;
 
 // Modular Scale Increments
 $modular-scale-increment-h1: 6;
