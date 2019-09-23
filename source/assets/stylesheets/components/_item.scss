@@ -11,19 +11,13 @@
 	background-color: $color-dark-grey;
 	border-radius: 0.25rem;
 	color: $color-light-grey;
-	font-size: 1rem;
 	grid-column: 1 / 6;
 	grid-row: 2;
 	padding: 0.25rem 0.75rem;
 	white-space: nowrap;
 	z-index: $level-1-z-index;
 
-  @include breakpoint("x-small") {
-    font-size: 1.25rem;
-  }
-
   @include breakpoint("small") {
-    font-size: 1.7rem;
     grid-row: 3;
     padding: .5rem 1rem;
   }
