@@ -18,6 +18,10 @@
       margin: $spacing-2x 0;
     }
   }
+
+  @include breakpoint("medium") {
+    padding-left: 6px;
+  }
 }
 
 .header__info p {

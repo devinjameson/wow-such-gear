@@ -35,7 +35,7 @@
   display: none;
   height: 80vh;
   left: 0;
-  overflow: auto;
+  overflow-y: auto;
   padding: $base-spacing $spacing-2x;
   position: fixed;
   text-align: right;
@@ -46,10 +46,16 @@
     background-color: transparent;
     border: none;
     display: block;
-    height: auto;
-    padding: 0;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    padding: 0 6px 0;
     position: static;    
     text-align: left;
+    width: auto;
+
+    &::-webkit-scrollbar { 
+      width: 0 !important 
+    }
   }
 }
 
@@ -59,11 +65,12 @@
 
 .nav__category-title {
   color: $color-white-grey;
+  font-size: 1.15rem;
   font-weight: 500;
   margin-bottom: $spacing-half;
 
   &:nth-of-type(n+2) {
-    margin-top: $base-spacing;
+    margin-top: $spacing-2x;
   }
 }
 
@@ -77,8 +84,7 @@
 
     &:before {
       content: "→";
-      right: $base-spacing;
-      position: absolute;
+      margin-right: $spacing-half;
       transform: rotate(180deg);
 
       @include breakpoint("medium") {
