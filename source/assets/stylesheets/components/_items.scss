@@ -3,5 +3,9 @@
 }
 
 .item-category-title {
+  border-bottom: 4px solid $color-dark-grey;
   margin-bottom: $base-spacing;
+  padding-bottom: 4px;
+  white-space: nowrap;
+  width: min-content;
 }
