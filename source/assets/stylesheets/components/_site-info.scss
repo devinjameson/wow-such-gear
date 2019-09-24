@@ -1,4 +1,4 @@
-.header__info {
+.site-info {
   color: $color-white-grey;
 
   &:after {
@@ -24,6 +24,10 @@
   }
 }
 
-.header__info p {
+.site-info__title {
+  font-weight: 700;
+}
+
+.site-info__description {
   max-width: $spacing-big;
 }

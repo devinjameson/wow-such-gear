@@ -35,7 +35,7 @@ $(document).ready(function(){
       scrollOffset = -300;
     }
 
-    var fromTop = $(this).scrollTop()+$('[data-header-info]').outerHeight()-scrollOffset;
+    var fromTop = $(this).scrollTop()+$('[data-site-info]').outerHeight()-scrollOffset;
   
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)

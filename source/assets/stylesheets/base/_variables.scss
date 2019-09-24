@@ -47,9 +47,9 @@ $level-2-z-index: 2;
 $base-border-radius: 0;
 
 // Colors
-$color-almost-black: #333;
+$color-almost-black: #141415;
 $color-simple-red: #df2316;
-$color-dark-grey: #141415;
+$color-dark-grey: #333;
 $color-mid-grey: #b8b8b8;
 $color-light-grey: #e4e4e4;
 $color-white-grey: #f8f8f8;
@@ -63,7 +63,7 @@ $base-border-color: $color-mid-grey;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: $color-dark-grey;
+$viewport-background-color: $color-almost-black;
 
 // Focus
 $focus-outline-color: $action-color;

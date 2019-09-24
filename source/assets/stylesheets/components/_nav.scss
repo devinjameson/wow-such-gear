@@ -7,9 +7,9 @@
 
 .menu-button, .menu-button:hover {
   background-color: $color-light-grey;
-  border: 3px solid $color-dark-grey;
+  border: 3px solid $color-almost-black;
   border-radius: 1.5rem;
-  color: $color-dark-grey;
+  color: $color-almost-black;
   margin: $spacing-half 0 $base-spacing;
   padding: ($spacing-quarter * 1.25) $spacing-half $spacing-quarter;
   position: fixed;
@@ -29,23 +29,44 @@
 }
 
 .nav__items {
-  background-color: $color-dark-grey;
-  border-top: 5px solid $color-simple-red;
+  background-color: $color-almost-black;
+  border-top: 4px solid $color-simple-red;
   bottom: 0;
   display: none;
-  height: 80vh;
+  height: 60vh;
   left: 0;
   overflow-y: auto;
-  padding: $base-spacing $spacing-2x;
+  padding: $base-spacing ($base-spacing * 1.25);
   position: fixed;
   text-align: right;
   width: 100vw;
   z-index: $level-2-z-index;
 
+  &:after {
+    background: linear-gradient(
+      to bottom,
+      rgba(20,20,21,0),
+      rgba(20,20,21,1) 70%
+    );
+    bottom: 0;
+    content: '';
+    display: none;
+    height: $spacing-big / 3;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+
+    @include breakpoint("medium") {
+      display: block;
+    }
+  }
+
   @include breakpoint("medium") {
-    background-color: transparent;
-    border: none;
+    border-top: none;
     display: block;
+    height: 60vh;
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
     padding: 0 6px 0;
@@ -59,7 +80,8 @@
   }
 }
 
-.nav__category {
+.nav__list {
+  height: 100%;
   list-style-type: none;
 }
 
@@ -70,7 +92,7 @@
   margin-bottom: $spacing-half;
 
   &:nth-of-type(n+2) {
-    margin-top: $spacing-2x;
+    margin-top: $base-spacing + 1;
   }
 }
 
@@ -92,5 +114,9 @@
         transform: rotate(0);
       }
     }
+  }
+
+  &:last-of-type {
+    padding-bottom: $spacing-big / 3;    
   }
 }
