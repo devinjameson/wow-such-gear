@@ -1,0 +1,86 @@
+---
+sections:
+- category: "Synthesizers"
+  items:
+  - item-name: "UA 6176"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Korg Minilogue"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Korg Model E"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Korg Model Z"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Korg Model F"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Korg Model G"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Korg Model H"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Korg Model I"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+- category: Outboard Hardware
+  items:
+  - item-name: "Volca Beats"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Minimoog Model D"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Minimoog Model E"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Minimoog Model Z"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Minimoog Model F"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Minimoog Model G"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Minimoog Model H"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Minimoog Model I"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."

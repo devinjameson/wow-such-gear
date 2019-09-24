@@ -59,12 +59,27 @@ $(document).ready(function(){
   // On page load trigger track scroll function
   trackScroll();
 
+  // Remove scroll arrow function
+  function removeScrollArrow() {
+    if ($("[data-nav-items]").innerHeight() > $("[data-nav-list]").innerHeight()) {
+      $("[data-nav-items]").removeClass('scroll-arrow');
+    } else {
+      $("[data-nav-items]").addClass('scroll-arrow');
+    }
+  }
+
+  // On window scroll trigger remove scroll arrow function
+  $(window).resize(removeScrollArrow);
+
+  // On page load trigger remove scroll arrow function
+  removeScrollArrow();
+
   // Scroll down arrow
-  $(".nav__items").scroll(function() {
-    if($(this).scrollTop() + $(this).innerHeight() > $(".nav__list").innerHeight()) {
-      $(".nav__items").removeClass('scroll-arrow');
-    } else if($(this).scrollTop() + $(this).innerHeight() <= $(".nav__list").innerHeight()) {
-      $(".nav__items").addClass('scroll-arrow');
+  $("[data-nav-items]").scroll(function() {
+    if ($(this).scrollTop() + $(this).innerHeight() > $("[data-nav-list]").innerHeight()) {
+      $("[data-nav-items]").removeClass('scroll-arrow');
+    } else if($(this).scrollTop() + $(this).innerHeight() <= $("[data-nav-list]").innerHeight()) {
+      $("[data-nav-items]").addClass('scroll-arrow');
     }
   });
 
