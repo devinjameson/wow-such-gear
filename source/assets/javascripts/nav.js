@@ -59,4 +59,13 @@ $(document).ready(function(){
   // On page load trigger track scroll function
   trackScroll();
 
+  // Scroll down arrow
+  $(".nav__items").scroll(function() {
+    if($(this).scrollTop() + $(this).innerHeight() > $(".nav__list").innerHeight()) {
+      $(".nav__items").removeClass('scroll-arrow');
+    } else if($(this).scrollTop() + $(this).innerHeight() <= $(".nav__list").innerHeight()) {
+      $(".nav__items").addClass('scroll-arrow');
+    }
+  });
+
 });
