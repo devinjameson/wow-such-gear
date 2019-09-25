@@ -30,7 +30,7 @@ $(document).ready(function(){
     let scrollOffset;
 
     if ($('[data-nav-toggle]').is(':hidden')) {
-      scrollOffset = -300;
+      scrollOffset = -260;
     } else {
       scrollOffset = -275;
     }
