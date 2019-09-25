@@ -42,11 +42,13 @@ $spacing-big: $base-spacing * 23;
 $base-z-index: 0;
 $level-1-z-index: 1;
 $level-2-z-index: 2;
+$level-3-z-index: 3;
 
 // Other sizes
 $base-border-radius: 0;
 
 // Colors
+$color-almost-black-transparent: rgba(20,20,21,0.90);
 $color-almost-black: #141415;
 $color-simple-red: #df2316;
 $color-dark-grey: #333;

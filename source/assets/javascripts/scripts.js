@@ -3,7 +3,7 @@ $(document).ready(function(){
   // Menu toggle
   $('[data-nav-toggle]').click(function() {
     $(this).toggleClass('menu-open');
-    $('[data-nav-items]').slideToggle();
+    $('[data-nav-items]').fadeToggle(200);
   });
 
   $(window).resize(function() {
@@ -82,5 +82,7 @@ $(document).ready(function(){
       $("[data-nav-items]").addClass('scroll-arrow');
     }
   });
+
+
 
 });

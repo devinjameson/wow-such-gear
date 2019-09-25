@@ -2,7 +2,7 @@
 sections:
 - category: "Synthesizers"
   items:
-  - item-name: "UA 6176"
+  - item-name: "Minimoog Model D"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
@@ -12,74 +12,149 @@ sections:
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Korg Model E"
+  - item-name: "Korg Monologue"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Korg Model Z"
+  - item-name: "Studiologic Sledge"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Korg Model F"
+  - item-name: "Elektron Digitone"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Korg Model G"
+  - item-name: "Soma Synths Lyra 8"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Korg Model H"
-    item-image-alt: ""
-    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Korg Model I"
-    item-image-alt: ""
-    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-- category: Outboard Hardware
+- category: "Outboard Hardware"
   items:
+  - item-name: "Universal Audio 6176"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "API The Channel Strip"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+- category: "Pedals"
+  items:
+  - item-name: "Chase Bliss Tonal Recall RKM"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Chase Bliss Warped Vinyl mkII"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Chase Bliss M O O D"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Chase Bliss Dark World"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Chase Bliss Condor"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Electro-Harmonix Deluxe Memory Man"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Demedash T-120 Videotape Echo"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "JHS Colour Box"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Elektron Analog Drive"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+- category: "Guitars"
+  items:
+  - item-name: "Fender Stratocaster"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Fender Mark Hooppus Signature Bass"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Epiphone Les Paul"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+  - item-name: "Vintage Epiphone Acoustic"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+- category: "Drum Machines"
+  items:
+  - item-name: "Alesis HR-16"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
   - item-name: "Volca Beats"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Minimoog Model D"
+- category: "Miscellaneous"
+  items:
+  - item-name: "Teenage Engineering OP-Z"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Minimoog Model E"
+- category: "Software"
+  items:
+  - item-name: "Bitwig"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Minimoog Model Z"
+  - item-name: "Slate Digital All Access Pass"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Minimoog Model F"
+  - item-name: "Valhalla VintageVerb"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Minimoog Model G"
+  - item-name: "Valhalla Shimmer"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Minimoog Model H"
-    item-image-alt: ""
-    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Minimoog Model I"
+  - item-name: "Valhalla Delay"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
