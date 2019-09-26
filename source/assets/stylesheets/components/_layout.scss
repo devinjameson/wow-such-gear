@@ -35,29 +35,3 @@ main {
     left: $spacing-big;
   }
 }
-
-.footer {
-  color: $color-dark-grey;
-  font-size: .9rem;
-  max-width: $spacing-big * 1.5;
-  padding: $base-spacing 0 $base-spacing;
-  text-align: center;
-
-  p {
-    margin: 0 auto $base-spacing;
-    max-width: $spacing-big - 6; 
-  }
-
-  &:before {
-    background-color: $color-dark-grey;
-    content: "";
-    display: block;
-    height: 2px;
-    margin: 0 auto $spacing-2x;
-    width: 2rem;
-  }
-
-  @include breakpoint("small") {
-    padding-top: $spacing-2x;
-  }
-}
