@@ -7,31 +7,43 @@ sections:
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+
   - item-name: "Korg Minilogue"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+
   - item-name: "Korg Monologue"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+
   - item-name: "Studiologic Sledge"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+
   - item-name: "Elektron Digitone"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+
   - item-name: "Soma Synths Lyra 8"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+     minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
 - category: "Outboard Hardware"
   items:
   - item-name: "Universal Audio 6176"
@@ -39,11 +51,14 @@ sections:
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "API The Channel Strip"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+
 - category: "Pedals"
   items:
   - item-name: "Chase Bliss Tonal Recall RKM"
@@ -51,46 +66,57 @@ sections:
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+
   - item-name: "Chase Bliss Warped Vinyl mkII"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+
   - item-name: "Chase Bliss M O O D"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "Chase Bliss Dark World"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "Chase Bliss Condor"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "Electro-Harmonix Deluxe Memory Man"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "Demedash T-120 Videotape Echo"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "JHS Colour Box"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "Elektron Analog Drive"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
 - category: "Guitars"
   items:
   - item-name: "Fender Stratocaster"
@@ -98,21 +124,25 @@ sections:
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "Fender Mark Hooppus Signature Bass"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "Epiphone Les Paul"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "Vintage Epiphone Acoustic"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
 - category: "Drum Machines"
   items:
   - item-name: "Alesis HR-16"
@@ -120,11 +150,13 @@ sections:
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
   - item-name: "Volca Beats"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
 - category: "Miscellaneous"
   items:
   - item-name: "Teenage Engineering OP-Z"
@@ -132,29 +164,106 @@ sections:
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-- category: "Software"
+
+- category: "Plugin Bundles"
   items:
-  - item-name: "Bitwig"
-    item-image-alt: ""
-    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
   - item-name: "Slate Digital All Access Pass"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Valhalla VintageVerb"
+
+  - item-name: "Softube Volume 3"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Valhalla Shimmer"
+
+  - item-name: "Kush Plugins"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-  - item-name: "Valhalla Delay"
+
+  - item-name: "Arturia 3 Compressors You'll Actually Use"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+  - item-name: "Arturia 3 Preamps You'll Actually Use"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+  - item-name: "Arturia 3 Delays You'll Actually Use"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+  - item-name: "Native Instruments Komplete"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+  - item-name: "Arturia V Collection"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+- category: "Reverb Plugins"
+  items:
+  - item-name: "d16 Toraverb"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+  - item-name: "Valhall Shimmer"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+  - item-name: "Valhalla Vintageverb"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+- category: "Delay Plugins"
+  items:
+  - item-name: "d16 Repeater"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+  - item-name: "Valhall Delay"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+  - item-name: "u-he Colour Copy"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+  - item-name: "Soundtoys Echoboy"
+    item-image-alt: ""
+    item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+
+- category: "Synth Plugins"
+  items:
+  - item-name: "d16 Lush-101"
     item-image-alt: ""
     item-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
