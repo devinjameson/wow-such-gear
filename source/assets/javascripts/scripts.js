@@ -3,9 +3,10 @@ $(document).ready(function(){
   // Menu toggle
   $('[data-nav-toggle]').click(function() {
     $(this).toggleClass('menu-open');
-    $('[data-nav-items]').slideToggle();
+    $('[data-nav-items]').fadeToggle(200);
   });
 
+  // On window resize deal with nav list
   $(window).resize(function() {
     if ($('[data-nav-toggle]').is(':hidden')) {
       $('[data-nav-items]').show();
@@ -16,7 +17,7 @@ $(document).ready(function(){
     }
   });
     
-  // Store variables
+  // Store variables for tracking scroll function
   var lastID,
       menuItems = $('[data-header-nav]').find("a"),
       scrollItems = menuItems.map(function() {
@@ -30,12 +31,12 @@ $(document).ready(function(){
     let scrollOffset;
 
     if ($('[data-nav-toggle]').is(':hidden')) {
-      scrollOffset = -300;
+      scrollOffset = -260;
     } else {
-      scrollOffset = -300;
+      scrollOffset = -275;
     }
 
-    var fromTop = $(this).scrollTop()+$('[data-header-info]').outerHeight()-scrollOffset;
+    var fromTop = $(this).scrollTop() + $('[data-site-info]').outerHeight()-scrollOffset;
   
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)
@@ -59,4 +60,27 @@ $(document).ready(function(){
   // On page load trigger track scroll function
   trackScroll();
 
+  // Remove scroll arrow function
+  function removeScrollArrow() {
+    if ($("[data-nav-items]").innerHeight() > $("[data-nav-list]").innerHeight()) {
+      $("[data-nav-items]").removeClass('scroll-arrow');
+    } else {
+      $("[data-nav-items]").addClass('scroll-arrow');
+    }
+  }
+
+  // On window scroll trigger remove scroll arrow function
+  $(window).resize(removeScrollArrow);
+
+  // On page load trigger remove scroll arrow function
+  removeScrollArrow();
+
+  // Scroll down arrow
+  $("[data-nav-items]").scroll(function() {
+    if ($(this).scrollTop() + $(this).innerHeight() > $("[data-nav-list]").innerHeight()) {
+      $("[data-nav-items]").removeClass('scroll-arrow');
+    } else if($(this).scrollTop() + $(this).innerHeight() <= $("[data-nav-list]").innerHeight()) {
+      $("[data-nav-items]").addClass('scroll-arrow');
+    }
+  });
 });

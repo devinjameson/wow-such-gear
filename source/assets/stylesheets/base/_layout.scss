@@ -2,6 +2,7 @@ html {
   background-color: $viewport-background-color;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 
   @media (prefers-reduced-motion: reduce) {
     scroll-behavior: auto;

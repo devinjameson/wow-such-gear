@@ -1,10 +1,8 @@
 <div class="items"> 
-  <h2 class="item-category-title">Outboard Hardware</h2>
-	<% data.items.outboard_hardware.each do |item| %>
-	  <%= partial "partials/item", locals: { item: item } %>
-	<% end %>
-  <h2 class="item-category-title">Synthesizers</h2>
-  <% data.items.synthesizers.each do |item| %>
-    <%= partial "partials/item", locals: { item: item } %>
+  <% data.items.sections.each do |section| %>
+    <h2 class="item-category-title" id="<%= parameterize(section["category"]) %>"><%= section["category"] %></h2>
+  	<% section.items.each do |item| %>
+  	  <%= partial "partials/item", locals: { item: item } %>
+  	<% end %>
   <% end %>
 </div>

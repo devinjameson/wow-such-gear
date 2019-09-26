@@ -40,7 +40,7 @@ main {
   color: $color-dark-grey;
   font-size: .9rem;
   max-width: $spacing-big * 1.5;
-  padding: $spacing-2x 0 $base-spacing;
+  padding: $base-spacing 0 $base-spacing;
   text-align: center;
 
   p {
@@ -55,5 +55,9 @@ main {
     height: 2px;
     margin: 0 auto $spacing-2x;
     width: 2rem;
+  }
+
+  @include breakpoint("small") {
+    padding-top: $spacing-2x;
   }
 }

@@ -1,24 +1,22 @@
 <nav class="nav" data-header-nav>
   <button class="menu-button" data-nav-toggle>Menu</button>
-  <div class="nav__items" data-nav-items>
-    <dl class="nav__category">
-      <dt class="nav__category-title">Outboard Hardware</dt>
-      <% data.items.outboard_hardware.each do |item| %>
-        <dd class="nav__item">
+  <div class="nav__items scroll-arrow" data-nav-items>
+    <dl class="nav__list" data-nav-list>
+      <% data.items.sections.each do |section| %>
+        <dt class="nav__category-title">
+        <%= link_to(
+            section["category"],
+            "#" + parameterize(section["category"]),
+          ) %>  
+        </dt>
+        <% section.items.each do |item| %>
+          <dd class="nav__item">
           <%= link_to(
-            item["item__name"],
-            "#" + parameterize(item["item__name"]),
+            item["item-name"],
+            "#" + parameterize(item["item-name"]),
           ) %>
         </dd>
-      <% end %>
-      <dt class="nav__category-title">Synthesizers</dt>
-      <% data.items.synthesizers.each do |item| %>
-        <dd class="nav__item">
-          <%= link_to(
-            item["item__name"],
-            "#" + parameterize(item["item__name"]),
-          ) %>
-        </dd>
+        <% end %>
       <% end %>
     </dl>
   </div>
