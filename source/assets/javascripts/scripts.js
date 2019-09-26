@@ -6,6 +6,7 @@ $(document).ready(function(){
     $('[data-nav-items]').fadeToggle(200);
   });
 
+  // On window resize deal with nav list
   $(window).resize(function() {
     if ($('[data-nav-toggle]').is(':hidden')) {
       $('[data-nav-items]').show();
@@ -16,7 +17,7 @@ $(document).ready(function(){
     }
   });
     
-  // Store variables
+  // Store variables for tracking scroll function
   var lastID,
       menuItems = $('[data-header-nav]').find("a"),
       scrollItems = menuItems.map(function() {
@@ -35,7 +36,7 @@ $(document).ready(function(){
       scrollOffset = -275;
     }
 
-    var fromTop = $(this).scrollTop()+$('[data-site-info]').outerHeight()-scrollOffset;
+    var fromTop = $(this).scrollTop() + $('[data-site-info]').outerHeight()-scrollOffset;
   
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)
@@ -82,7 +83,4 @@ $(document).ready(function(){
       $("[data-nav-items]").addClass('scroll-arrow');
     }
   });
-
-
-
 });
