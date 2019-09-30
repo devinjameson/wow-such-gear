@@ -1,7 +1,14 @@
 .nav {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $z-index-level-3;
 
   @include breakpoint("medium") {
     display: block;
+    position: static;
   }
 }
 
@@ -13,19 +20,15 @@
   margin: $spacing-half 0 $base-spacing;
   padding: ($spacing-quarter * 1.25) $spacing-half $spacing-quarter;
   position: fixed;
-  right: $spacing-half;
+  right: $base-spacing;
   top: $spacing-half;
-  z-index: $level-3-z-index;
+  z-index: $z-index-level-3;
 
   &.menu-open {
 
     &:before {
       content: 'Hide ';
     }
-  }
-
-  @include breakpoint("x-small") {
-    right: $base-spacing;
   }
 
   @include breakpoint("medium") {
@@ -44,7 +47,7 @@
   position: fixed;
   text-align: right;
   width: 100vw;
-  z-index: $level-2-z-index;
+  z-index: $z-index-level-2;
 
   &::-webkit-scrollbar { 
     display: none;

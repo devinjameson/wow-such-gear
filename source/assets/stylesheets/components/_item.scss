@@ -16,7 +16,7 @@
 	padding: 0.25rem 0.75rem;
   width: min-content;
 	white-space: nowrap;
-	z-index: $level-1-z-index;
+	z-index: $z-index-level-1;
 
   @include breakpoint("small") {
     grid-row: 3;
