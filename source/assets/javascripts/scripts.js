@@ -28,7 +28,7 @@ $(document).ready(function(){
   // Track scroll function
   function trackScroll() {
 
-    let scrollOffset;
+    var scrollOffset;
 
     if ($('[data-nav-toggle]').is(':hidden')) {
       scrollOffset = -260;
@@ -36,7 +36,7 @@ $(document).ready(function(){
       scrollOffset = -275;
     }
 
-    var fromTop = $(this).scrollTop() + $('[data-site-info]').outerHeight()-scrollOffset;
+    var fromTop = $(this).scrollTop() + $('[data-site-info]').outerHeight() - scrollOffset;
   
     var cur = scrollItems.map(function(){
       if ($(this).offset().top < fromTop)
