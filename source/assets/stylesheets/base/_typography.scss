@@ -107,19 +107,23 @@ p {
 }
 
 a {
-  color: $color-white-grey;
+  color: $color-weather-blue;
   text-decoration: none;
   text-decoration-skip: ink;
   transition: color $base-duration $base-timing;
 
   &:hover {
-    color: $color-white-grey;
+    color: $color-simple-red;
   }
 
   &:focus {
     outline: $focus-outline;
     outline-offset: $focus-outline-offset;
   }
+}
+
+main a {
+  font-weight: 500;
 }
 
 hr {

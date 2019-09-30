@@ -1,4 +1,4 @@
-# Lots of Gear
+# Wow, Such Gear
 
 This app is built with [Middleman].
 

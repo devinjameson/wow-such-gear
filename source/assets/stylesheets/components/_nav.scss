@@ -115,8 +115,17 @@
 }
 
 .nav__item {
+  color: $color-white-grey;
   font-size: 0.95rem;
   margin-bottom: $spacing-half;
+
+  & > a {
+    color: inherit;
+
+    &:hover {
+      color: $color-simple-red;
+    }
+  }
 
   &.active a {
     color: $color-simple-red;
