@@ -1,13 +1,6 @@
 html {
   background-color: $viewport-background-color;
   box-sizing: border-box;
-  -ms-overflow-style: none;
-  overflow-x: hidden;
-  scrollbar-width: none;
-
-  &::-webkit-scrollbar { 
-    display: none;
-  }
 }
 
 *,

@@ -40,11 +40,17 @@
   height: 100vh;
   left: 0;
   overflow-y: auto;
-  padding: 0 $base-spacing $base-spacing;
+  padding: 0 $spacing-2x $base-spacing;
   position: fixed;
   text-align: right;
   width: 100vw;
   z-index: $level-2-z-index;
+
+  &::-webkit-scrollbar { 
+    display: none;
+    height: 0;
+    width: 0;
+  }
 
   @include breakpoint("medium") {
     border-top: 1px solid $color-mid-grey;
@@ -57,10 +63,6 @@
     position: static;    
     text-align: left;
     width: auto;
-
-    &::-webkit-scrollbar { 
-      width: 0 !important 
-    }
   }
 }
 
@@ -97,7 +99,7 @@
 
 .nav__list {
   list-style-type: none;
-  padding-top: $spacing-4x * 1.5;
+  padding-top: 12rem;
 
   @include breakpoint("medium") {
     padding-top: $spacing-half;

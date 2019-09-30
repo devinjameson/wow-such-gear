@@ -7,16 +7,12 @@ html {
   line-height: $base-line-height;
 
   @include breakpoint("x-small") {
-    font-size: 90%;
+    font-size: 95%;
   }
 
   @include breakpoint("small") {
-    font-size: 95%;
-  }  
-
-  @include breakpoint("large") {
     font-size: 100%;
-  }
+  }  
 }
 
 h1,
