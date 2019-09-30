@@ -33,12 +33,12 @@ $(document).ready(function(){
     if ($('[data-nav-toggle]').is(':hidden')) {
       scrollOffset = -260;
     } else {
-      scrollOffset = -275;
+      scrollOffset = 0;
     }
 
     var fromTop = $(this).scrollTop() + $('[data-site-info]').outerHeight() - scrollOffset;
   
-    var cur = scrollItems.map(function(){
+    var cur = scrollItems.map(function() {
       if ($(this).offset().top < fromTop)
         return this;
     });

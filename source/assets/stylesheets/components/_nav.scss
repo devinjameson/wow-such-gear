@@ -40,7 +40,7 @@
   height: 100vh;
   left: 0;
   overflow-y: auto;
-  padding: ($spacing-3x * 1.25) $base-spacing $base-spacing;
+  padding: 0 $base-spacing $base-spacing;
   position: fixed;
   text-align: right;
   width: 100vw;
@@ -96,7 +96,11 @@
 
 .nav__list {
   list-style-type: none;
-  padding-top: $spacing-half;
+  padding-top: $spacing-3x * 1.25;
+
+  @include breakpoint("medium") {
+    padding-top: $spacing-half;
+  }
 }
 
 .nav__category-title {
@@ -122,8 +126,10 @@
   & > a {
     color: inherit;
 
-    &:hover {
-      color: $color-simple-red;
+    @include breakpoint("medium") {
+      &:hover {
+        color: $color-simple-red;
+      }
     }
   }
 
