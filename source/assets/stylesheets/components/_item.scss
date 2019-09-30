@@ -37,7 +37,7 @@
 
 .item__description {
 	color: $color-dark-grey;
-	max-width: $spacing-big;
+	max-width: $spacing-big + 2;
 
   @include breakpoint("small") {
     margin-left: $spacing-4x;

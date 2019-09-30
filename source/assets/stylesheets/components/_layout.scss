@@ -17,7 +17,7 @@ header {
 }
 
 main {
-  background-color: $color-light-grey;
+  background-color: $color-white-grey;
   padding: ($base-spacing * 1.25) ($base-spacing * 1.25) 0;
 
   @include breakpoint("small") {
