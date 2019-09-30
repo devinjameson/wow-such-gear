@@ -67,7 +67,8 @@
 .scroll-arrow {
 
   &:after {
-    animation: arrow-bounce 2s;
+    animation: arrow-bounce 3.5s;
+    animation-delay: 1.5s;
     animation-iteration-count: infinite;
     background-color: $color-dark-grey;
     border-radius: 3px;
@@ -87,16 +88,16 @@
 
 @keyframes arrow-bounce {
   0% { bottom: -15px; }
-  12.5% { bottom: -25px; }
+  6.25% { bottom: -25px; }
+  12.5% { bottom: -15px; }
+  18.75% { bottom: -25px; }
   25% { bottom: -15px; }
-  37.5% { bottom: -25px; }
-  50% { bottom: -15px; }
   100% { bottom: -15px; }
 }
 
 .nav__list {
   list-style-type: none;
-  padding-top: $spacing-3x * 1.25;
+  padding-top: $spacing-4x * 1.5;
 
   @include breakpoint("medium") {
     padding-top: $spacing-half;
