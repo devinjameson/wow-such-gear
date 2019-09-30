@@ -2,31 +2,27 @@
 sections:
 - category: "Synthesizers"
   items:
-  - item-name: "Minimoog Model D Reissue"
-    item-description: "An all time classic. Tons of modern synths take cues from the design language of the Model D.
-    Has a very sweet and warm sound. It's also just really beautiful."
-
   - item-name: "Korg Minilogue"
     item-description: "4-voice analog polysynth. Very popular due to its relatively low price in the analog
     polysynth realm, its versatility, and its unique sound. Simultaneously fun and professional sounding."
 
+  - item-name: "Minimoog Model D Reissue"
+    item-description: "An all time classic. Tons of modern synths take cues from the design language of the Model D.
+    Has a very sweet and warm sound. It's also just really beautiful."
 
   - item-name: "Korg Monologue"
     item-description: "The Minilogue's younger sibling. Monophone with a more driven sound.The built-in drive
     circuit can help generate more compressed, harmonically-rich tones. Kind of an odd duck 
     but occasionally very useful."
 
-
   - item-name: "Studiologic Sledge"
     item-description: "Digital polysynth. Think Blade Runner. It's got that digital resonance thing
     going on that makes everything sound like '80s sci-fi. Really fun!"
-
 
   - item-name: "Elektron Digitone"
     item-description: "An unassuming beast. One of the most impressive feats of UI/UX I've seen in an
     instrument. Enables some really interesting and powerful options for modulation and performance.
     The step automation capability, in particular, delivers a sound I can't find elsewhere."
-
 
   - item-name: "Soma Synths Lyra 8"
     item-description: "Weird. Unpredictable. Many, many, many knobs. What exactly they do? Not sure.
@@ -53,12 +49,10 @@ sections:
     item-description: "A very guitar-y delay. Firm and tight BBD sound. I'll only use it on synths if
     I want something syncopated. Really special pedal for guitar."
 
-
   - item-name: "Chase Bliss Warped Vinyl mkII"
     item-description: "Gooey and warm, with some nice fuzzy noise on top if the high-pass is disengaged.
     Can make things sound just a tad different if that's what the part needs. Best on guitar, but
     also works great on synths."
-
 
   - item-name: "Chase Bliss M O O D"
     item-description: "Bleep and bloop machine! Put a thing in and get a cooler thing out. Haven't had a
