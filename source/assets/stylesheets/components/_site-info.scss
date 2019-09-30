@@ -1,25 +1,8 @@
 .site-info {
   color: $color-white-grey;
 
-  &:after {
-
-    background-color: $color-mid-grey;
-    content: "";
-    display: none;
-    margin: $base-spacing 0;
-    @include size(2rem, 2px);
-
-    @include breakpoint("medium") {
-      display: block;
-      margin: ($base-spacing * 1.5) 0;
-    }
-
-    @include breakpoint("large") {
-      margin: $spacing-2x 0;
-    }
-  }
-
   @include breakpoint("medium") {
+    margin-bottom: $spacing-2x;
     padding-left: 6px;
   }
 }
