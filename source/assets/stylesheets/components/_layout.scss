@@ -1,8 +1,8 @@
 header {
-  padding: ($base-spacing * 1.5) ($base-spacing * 1.25) ($base-spacing / 1.25);
+  padding: ($base-spacing * 1.5) ($base-spacing) ($base-spacing / 1.25);
 
   @include breakpoint("small") {
-    padding: ($base-spacing * 1.5) ($spacing-2x / 1.25) $base-spacing;
+    padding: ($base-spacing * 1.5) ($spacing-2x / 1.5) $base-spacing;
   }
 
   @include breakpoint("medium") {
@@ -18,10 +18,10 @@ header {
 
 main {
   background-color: $color-white-grey;
-  padding: ($base-spacing * 1.25) ($base-spacing * 1.25) 0;
+  padding: ($base-spacing * 1.25) ($base-spacing) 0;
 
   @include breakpoint("small") {
-    padding: $spacing-2x ($spacing-2x / 1.25) 0;
+    padding: $spacing-2x ($spacing-2x / 1.5) 0;
   }
 
   @include breakpoint("medium") {
