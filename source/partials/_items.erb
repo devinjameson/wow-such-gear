@@ -1,6 +1,7 @@
 <div class="items"> 
   <% data.items.sections.each do |section| %>
-    <h2 class="item-category-title" id="<%= parameterize(section["category"]) %>"><%= section["category"] %></h2>
+    <h2 class="item-category-title"><%= section["category"] %></h2>
+    <span class="item-category-title__id" id="<%= parameterize(section["category"]) %>"></span>
   	<% section.items.each do |item| %>
   	  <%= partial "partials/item", locals: { item: item } %>
   	<% end %>
