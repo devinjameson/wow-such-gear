@@ -4,16 +4,6 @@
   padding: $base-spacing 0 $base-spacing;
   text-align: left;
 
-  img {
-    border-radius: 0.25rem;
-    margin-bottom: $base-spacing;
-  }
-
-  p {
-    margin: 0 0 $base-spacing;
-    max-width: $spacing-big - 4; 
-  }
-
   &:before {
     background-color: $color-dark-grey;
     content: "";
@@ -25,5 +15,19 @@
 
   @include breakpoint("small") {
     padding-top: $spacing-2x;
+  }
+
+  img {
+    border-radius: $base-border-radius;
+    margin-bottom: $base-spacing;
+  }
+
+  p {
+    margin: 0 0 $base-spacing;
+    max-width: $spacing-big - 4; 
+  }
+
+  .copyright {
+    font-size: 0.8rem;
   }
 }

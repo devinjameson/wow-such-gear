@@ -7,13 +7,18 @@
 
 }
 
+.item__id {
+  position: relative;
+  bottom: 5rem;
+}
+
 .item__name {
 	background-color: $color-simple-red;
-	border-radius: 0.25rem;
+	border-radius: $base-border-radius;
 	color: $color-white-grey;
 	grid-column: 1 / 6;
 	grid-row: 2;
-	padding: 0.25rem 0.75rem;
+	padding: 0.3rem 0.75rem 0.35rem;
   width: min-content;
 	white-space: nowrap;
 	z-index: $z-index-level-1;
@@ -25,7 +30,7 @@
 }
 
 .item__image {
-  border-radius: 0.25rem;
+  border-radius: $base-border-radius;
   grid-column: 2 / 11;
   grid-row: 1 / 11;
 

@@ -72,7 +72,7 @@
     animation-delay: 1.5s;
     animation-iteration-count: infinite;
     background-color: $color-dark-grey;
-    border-radius: 3px;
+    border-radius: $base-border-radius;
     bottom: -15px;
     color: $color-white-grey;
     content: "↓ Scroll for more gear ↓";
@@ -98,10 +98,10 @@
 
 .nav__list {
   list-style-type: none;
-  padding-top: 12rem;
+  margin-top: $spacing-4x;
 
   @include breakpoint("medium") {
-    padding-top: $spacing-half;
+    margin-top: $spacing-half;
   }
 }
 

@@ -1,5 +1,5 @@
 header {
-  padding: ($base-spacing * 1.5) ($base-spacing) ($base-spacing / 1.25);
+  padding: ($base-spacing * 1.5) $base-spacing $base-spacing;
 
   @include breakpoint("small") {
     padding: ($base-spacing * 1.5) ($spacing-2x / 1.5) $base-spacing;
@@ -26,7 +26,7 @@ main {
 
   @include breakpoint("medium") {
     left: $spacing-big / 1.25;
-    padding: ($spacing-4x + 3) ($spacing-2x / 1.25) 0;
+    padding: ($spacing-2x) ($spacing-2x / 1.25) 0;
     position: absolute;
     right: 0;
   }

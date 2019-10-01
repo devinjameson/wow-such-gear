@@ -3,10 +3,19 @@
 }
 
 .item-category-title {
-  color: $color-almost-black;
-  border-bottom: 4px solid $color-almost-black;
-  margin-bottom: $base-spacing;
-  padding-bottom: 4px;
+  background-color: $color-almost-black;
+  border-radius: $base-border-radius;
+  color: $color-white-grey;
+  margin: $spacing-4x 0 $base-spacing;
+  padding: 0.5rem 1rem;
   white-space: nowrap;
   width: min-content;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+
+  @include breakpoint("medium") {
+    margin-top: $spacing-big / 3;
+  }
 }

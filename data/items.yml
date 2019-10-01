@@ -2,14 +2,6 @@
 sections:
 - category: "Synthesizers"
   items:
-  - item-name: "Korg Minilogue"
-    item-description: "4-voice analog polysynth. Very popular due to its relatively low price in the analog
-    polysynth realm, its versatility, and its unique sound. Simultaneously fun and professional sounding."
-
-  - item-name: "Minimoog Model D Reissue"
-    item-description: "An all time classic. Tons of modern synths take cues from the design language of the Model D.
-    Has a very sweet and warm sound. It's also just really beautiful."
-
   - item-name: "Korg Monologue"
     item-description: "The Minilogue's younger sibling. Monophone with a more driven sound.The built-in drive
     circuit can help generate more compressed, harmonically-rich tones. Kind of an odd duck 
@@ -23,6 +15,14 @@ sections:
     item-description: "An unassuming beast. One of the most impressive feats of UI/UX I've seen in an
     instrument. Enables some really interesting and powerful options for modulation and performance.
     The step automation capability, in particular, delivers a sound I can't find elsewhere."
+
+  - item-name: "Korg Minilogue"
+    item-description: "4-voice analog polysynth. Very popular due to its relatively low price in the analog
+    polysynth realm, its versatility, and its unique sound. Simultaneously fun and professional sounding."
+
+  - item-name: "Minimoog Model D Reissue"
+    item-description: "An all time classic. Tons of modern synths take cues from the design language of the Model D.
+    Has a very sweet and warm sound. It's also just really beautiful."
 
   - item-name: "Soma Synths Lyra 8"
     item-description: "Weird. Unpredictable. Many, many, many knobs. What exactly they do? Not sure.
