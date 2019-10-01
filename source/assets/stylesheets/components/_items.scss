@@ -1,10 +1,5 @@
 .items {
-  margin-bottom: 32rem;
   max-width: $spacing-big * 1.5;
-
-  @include breakpoint("medium") {
-    margin-bottom: 23rem;
-  }
 }
 
 .item-category-title {

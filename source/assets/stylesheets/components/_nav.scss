@@ -1,9 +1,5 @@
 .nav {
-  height: 100%;
-  left: 0;
   position: fixed;
-  top: 0;
-  width: 100%;
   z-index: $z-index-level-3;
 
   @include breakpoint("medium") {
@@ -13,15 +9,15 @@
 }
 
 .menu-button, .menu-button:hover {
-  background-color: $color-light-grey;
-  border: 3px solid $color-almost-black;
+  background-color: $color-white-grey;
+  border: 3px solid $color-simple-red;
   border-radius: 1.5rem;
-  color: $color-almost-black;
+  color: $color-simple-red;
   margin: $spacing-half 0 $base-spacing;
   padding: ($spacing-quarter * 1.25) $spacing-half $spacing-quarter;
   position: fixed;
-  right: $base-spacing;
-  top: $spacing-half;
+  right: 20px;
+  top: 10px;
   z-index: $z-index-level-3;
 
   &.menu-open {
@@ -42,7 +38,7 @@
   display: none;
   left: 0;
   overflow-y: auto;
-  padding: 0 $spacing-2x $base-spacing;
+  padding: 0 25px $base-spacing;
   position: fixed;
   right: 0;
   text-align: right;

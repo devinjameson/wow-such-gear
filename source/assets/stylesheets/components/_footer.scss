@@ -1,13 +1,17 @@
 .footer {
   color: $color-dark-grey;
-  font-size: .9rem;
   max-width: $spacing-big * 1.5;
   padding: $base-spacing 0 $base-spacing;
   text-align: left;
 
+  img {
+    border-radius: 0.25rem;
+    margin-bottom: $base-spacing;
+  }
+
   p {
     margin: 0 0 $base-spacing;
-    max-width: $spacing-big - 6; 
+    max-width: $spacing-big - 4; 
   }
 
   &:before {
