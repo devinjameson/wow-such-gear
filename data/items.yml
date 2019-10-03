@@ -2,27 +2,26 @@
 sections:
 - category: "Synthesizers"
   items:
-  - item-name: "Korg Monologue"
-    item-description: "The Minilogue's younger sibling. Monophone with a more driven sound.The built-in drive
-    circuit can help generate more compressed, harmonically-rich tones. Kind of an odd duck 
-    but occasionally very useful."
-
   - item-name: "Studiologic Sledge"
     item-description: "Digital polysynth. Think Blade Runner. It's got that digital resonance thing
     going on that makes everything sound like '80s sci-fi. Really fun!"
+
+  - item-name: "Korg Minilogue"
+    item-description: "4-voice analog polysynth. Very popular due to its relatively low price in the analog
+    polysynth realm, its versatility, and its unique sound. Simultaneously fun and professional sounding."
+
+  - item-name: "Korg Monologue"
+    item-description: "The Minilogue's younger sibling. Monophonic with a more driven sound. The built-in drive
+    circuit makes more compressed, harmonically-rich tones. Kind of an odd duck, but occasionally very useful."
 
   - item-name: "Elektron Digitone"
     item-description: "An unassuming beast. One of the most impressive feats of UI/UX I've seen in an
     instrument. Enables some really interesting and powerful options for modulation and performance.
     The step automation capability, in particular, delivers a sound I can't find elsewhere."
 
-  - item-name: "Korg Minilogue"
-    item-description: "4-voice analog polysynth. Very popular due to its relatively low price in the analog
-    polysynth realm, its versatility, and its unique sound. Simultaneously fun and professional sounding."
-
   - item-name: "Minimoog Model D Reissue"
     item-description: "An all time classic. Tons of modern synths take cues from the design language of the Model D.
-    Has a very sweet and warm sound. It's also just really beautiful."
+    Has a very sweet and warm sound. It's also a visual treat."
 
   - item-name: "Soma Synths Lyra 8"
     item-description: "Weird. Unpredictable. Many, many, many knobs. What exactly they do? Not sure.
@@ -35,77 +34,79 @@ sections:
     sound vintage. Has the ability to compress heavily, but still sound natural. Has a purple light."
 
   - item-name: "API The Channel Strip"
-    item-description: "Have two because stereo. So unbelievably awesome. Makes anything you run through
+    item-description: "Have two because stereo! So unbelievably awesome. Makes anything you run through
     it sound Professional™. Sometimes I'll run a drum buss through it and it just comes out sounding
     mixed."
 
   - item-name: "Roland Space Echo"
     item-description: "Needs no introduction. Sci-fi spacey tape delay. The best part is opening up
-    the top and watching the tape move. Also changing the repeat rate on the fly for slow-down effects!"
+    the top and watching the tape move. Also, changing the repeat rate on the fly for tape slow-down effects!"
 
 - category: "Pedals"
   items:
   - item-name: "Chase Bliss Tonal Recall RKM"
     item-description: "A very guitar-y delay. Firm and tight BBD sound. I'll only use it on synths if
-    I want something syncopated. Really special pedal for guitar."
+    I really want something syncopated. Overall a really special pedal for guitar."
 
   - item-name: "Chase Bliss Warped Vinyl mkII"
-    item-description: "Gooey and warm, with some nice fuzzy noise on top if the high-pass is disengaged.
+    item-description: "Gooey and warm, with some nice fuzzy noise on top if the high-pass is disengaged!
     Can make things sound just a tad different if that's what the part needs. Best on guitar, but
     also works great on synths."
 
   - item-name: "Chase Bliss M O O D"
-    item-description: "Bleep and bloop machine! Put a thing in and get a cooler thing out. Haven't had a
+    item-description: "The bleep and bloop machine! Put a thing in and get a cooler thing out. Haven't had a
     ton of time to get into it, but it's really fun and has a sound I haven't heard elsewhere."
 
   - item-name: "Chase Bliss Dark World"
-    item-description: "Unique digital reverb with two sides named 'dark' and 'world'. Each side can be routed
-    into the other or they can be played in parallel. Dark has weird, modulated, shimmery, noisy stuff 
-    going on. World has a plate, spring, and hall verb. A rather cold sound."
+    item-description: "Unique digital reverb with two channels: one named 'dark' and the other 'world'. 
+    Each side can be routed into the other or they can be played in parallel. Dark has weird, modulated, 
+    shimmery, noisy stuff going on. World has a standard plate, spring, and hall verb. A rather cold sound, but
+    that's not a bad thing!"
 
   - item-name: "Chase Bliss Condor"
-    item-description: "Analog pre/eq. This is an 'always-on' front-end pedal for me for guitar. Gives things
-    a nice round tone going through the rest of the chain. Can be a bit much for synths, but occasionally really nice."
+    item-description: "Straight up analog preamp and EQ. This is an 'always-on' front-end pedal for me for guitar. 
+    Gives things a nice round tone going through the rest of the chain. Can be a bit much for synths, but 
+    occasionally really nice."
 
   - item-name: "Electro-Harmonix Deluxe Memory Man"
-    item-description: "Another BBD delay with a very different sound. So good on flowy synth and guitar 
-    stuff. Combines the dry and wet signal beautifully. The repeats also roll off really smoothly. Seems like
-    each repeat get a bit more saturated and loses some high-end."
+    item-description: "Another BBD delay with a very different sound compared to the Tonal Recall. So good on 
+    flowy synth and guitar stuff. Combines the dry and wet signal really smoothly. The repeats also roll off so nicely.
+    Seems like each repeat get a bit more saturated and loses some high-end."
 
   - item-name: "Demedash T-120 Videotape Echo"
-    item-description: "Another delay, but a special one. Wait list is really long of this friend. Has a character
-    that's hard to explain. If I had to describe it I would say it sounds like the '90s."
+    item-description: "A very special delay. Wait list is really long for this friend. Has a character
+    that's hard to explain. If I had to describe it, I would say it sounds like the '90s."
 
   - item-name: "JHS Colour Box"
     item-description: "Lundahl transformer. Supposed to sound like plugging directly into a Neve console. 
-    Haven't used it much, but most likely will for low-gain stuff. Adds a little something special."
+    Haven't used it much, but most likely will for low-gain stuff! Adds a little something special."
 
   - item-name: "Elektron Analog Drive"
-    item-description: "Versatile drive pedal. I use it primarily for guitar on low gain. Really love the sound of
-    this. Got it on sale for like $80 and it sounds amazing for that price."
+    item-description: "Super versatile drive pedal. I use it primarily for guitar on low gain settings.
+    Really love the sound of this. Got it on sale for like $80 and it sounds amazing for that price."
 
 - category: "Guitars"
   items:
   - item-name: "Fender Stratocaster"
-    item-description: "Just your basic strat. Got it when I was like 15. Not much else to say. Sounds great!"
+    item-description: "Just your basic strat! Got it when I was like 15. Not much else to say. Sounds great!"
 
   - item-name: "Fender Mark Hoppus Signature Bass"
-    item-description: "Got this because of the pickups it came with, but I also like the simplicity. Has
-    a nice chunky sound. I use flat-wound strings."
+    item-description: "Got this because of the pickups it came with, but I also like the simplicity of just
+    the volume knob. Has a nice chunky sound. I use flat-wound strings."
 
   - item-name: "Epiphone Les Paul"
     item-description: "Acquired this a few years ago, but honestly haven't really found a way to get it to
-    sound how I want. It's got a very driven 'rock' type sound which doesn't feel natural for me. Maybe
-    I'll figure it out, who knows."
+    sound how I want. It's got a very driven 'rock' type sound which doesn't feel too natural for me. Maybe
+    I'll figure it out!"
 
   - item-name: "Vintage Epiphone Acoustic"
     item-description: "Picked this up on the cheap because I wanted a J45, but didn't want to spend
-    thousands of dollars. Sounds really nice."
+    thousands of dollars. Sounds really nice!"
 
 - category: "Drum Machines"
   items:
   - item-name: "Alesis HR-16"
-    item-description: "Lol. Ridiculously hard to program. But has that retro, digital drum machine sound
+    item-description: "Lol. Just ridiculously hard to program. But it has that retro, digital drum machine sound
     that you can't really capture in software. Must be the subpar D/A conversion."
 
   - item-name: "Volca Beats"
@@ -116,11 +117,11 @@ sections:
   items:
   - item-name: "Yamaha MSP7s"
     item-description: "Bought these monitors when I was like 15. They were the floor models at Sam Ash,
-    so were a little beat up, but still sounded fantastic. They have a very open and wide sound. I don't
+    so a little beat up, but still sounded fantastic. They have a very open and wide sound. I don't
     have a treated room, so can't use them much for mixing, but they're still great."
 
   - item-name: "Sennheiser HD650s"
-    item-description: "Studio monitors on mixing duty. Open back. great sound stage. I use them with
+    item-description: "Studio monitors for mixing duty. Open back. Great sound stage. I use them with
     Sonarworks software to get them properly calibrated, which makes a huge difference."
 
   - item-name: "Ableton Push 2"
@@ -133,82 +134,82 @@ sections:
 
   - item-name: "Universal Audio Arrow"
     item-description: "I use this purely for recording plugins out of my laptop and through hardware. It forces
-    me to treat virtual instruments like hardware, which I prefer for workflow reasons."
+    me to treat virtual instruments like real ones, which I prefer for workflow reasons."
 
   - item-name: "Schiit Magni 2"
-    item-description: "Headphone amp. Not too expensive and doesn't color the sound too much. Drives
+    item-description: "Headphone amp. Not too expensive and doesn't color the sound much. Drives
     the Sennheiser HD650s just fine."
 
   - item-name: "Bitwig"
     item-description: "Digital audio workstation. I used to use Ableton, but it has a lot of performance issues
-    when projects get really big. Bitwig is great for huge projects because it handles CPU usage in a really
-    smart way. If tracks aren't playing anything or are muted, the CPU usage goes to zero. Also has a UI that's
-    very similar to Ableton so wasn't hard to switch over."
+    when projects get really big. Bitwig is great for huge projects because it handles CPU usage in a much smarter
+    smart way. For example, when tracks aren't playing any sound or are muted, the CPU usage goes to zero.
+    Bitwig also has a UI that's very similar to Ableton so it wasn't hard to switch over."
 
 - category: "Plugin Bundles"
   items:
   - item-name: "Slate Digital All Access Pass"
-    item-description: "I probably use Virtual Mix Rack on every individual track in any given project. Mostly
-    FG-73, FG-116, and FG-N. I especially love the FG-116 compressor. It levels things out so smoothly.
-    The All Access Pass includes a ton more though. Reverbs, instruments, buss compressors, etc. It's honestly
-    an incredible value, highly recommend."
+    item-description: "I probably use Virtual Mix Rack in every individual track on any given project. Mostly
+    FG-73 eq, FG-116 compressor, and FG-N preamp. I especially love the FG-116 compressor. It levels things
+    out so smoothly. The All Access Pass includes a ton more though. Reverbs, instruments, buss compressors, etc. 
+    It's honestly an incredible value, highly recommend!"
 
   - item-name: "Softube Volume 3"
-    item-description: "Lots of cool stuff in this bundle. I don't use any of it super frequently, but it's
+    item-description: "Lots of cool stuff in this bundle. I don't use any of it super frequently, but it can be
     really useful when you need it."
 
   - item-name: "Kush Plugins"
     item-description: "Novatron, UBK-1, and Omega N in particular each have a sound I haven't heard anywhere
-    else."
+    else. Really cool, very colorful stuff."
 
   - item-name: "Arturia 3 Compressors"
-    item-description: "I use the tube compressor on a ton of stuff. Levels things out really nicely. Mostly
-    use it on synth parts with lots of reverb."
+    item-description: "Super useful. I use the tube compressor on a ton of stuff. Levels things out really nicely. Mostly
+    use it on synth parts with lots of reverb to merge the wet and dry signal better."
 
   - item-name: "Arturia 3 Preamps"
     item-description: "They just sound really nice. When I need a little extra something on a track, but
-    you're not sure what, this can be a nice subtle boost."
+    I'm not sure what exactly, this can be a nice subtle boost."
 
   - item-name: "Arturia 3 Delays"
-    item-description: "The BBD delay in particular really nails the sound."
+    item-description: "The BBD delay in particular really nails the sound!"
 
   - item-name: "Arturia V Collection"
     item-description: "Great vintage synth emulations. The CS-80 is really good. Also love the Matrix-12 emulation."
 
   - item-name: "Native Instruments Komplete"
-    item-description: "So much in this bundle. Lots of useful stuff. Monark, Massive, Kontakt, etc."
+    item-description: "So so much in this bundle. Lots of useful stuff. Monark, Massive, Kontakt, etc."
 
 - category: "Reverb Plugins"
   items:
   - item-name: "d16 Toraverb"
-    item-description: "Expansive, modulated, and at times unwieldy. Love it."
+    item-description: "Expansive, modulated, and at times unwieldy. Use it all the time. Love it."
 
   - item-name: "Valhalla Shimmer"
     item-description: "If you imagine what 'shimmer' might sound like, it does that. Usually use it on
     synths if I want them to sound more bright and airy."
 
   - item-name: "Valhalla Vintageverb"
-    item-description: "Full, round, deep, modulated reverb. Sounds great on everything."
+    item-description: "Full, round, deep, modulated, vintage-sounding reverb. Sounds great on everything."
 
 - category: "Delay Plugins"
   items:
   - item-name: "d16 Repeater"
-    item-description: "Reliable delay. It's the first one I reach for when I think 'needs delay'."
+    item-description: "Reliable workhorse delay. It's the first one I reach for when I think 'needs delay'."
 
   - item-name: "Valhalla Delay"
     item-description: "Has an interesting way of making everything sound bigger and more expansive.
     Probably because of the diffusion control. Everything Valhalla puts out is gold."
 
   - item-name: "u-he Colour Copy"
-    item-description: "Really good for modulated delay. Also has a cool feedback colouration cirtcuit
-    for saturating the repeats in different ways."
+    item-description: "Really good for modulated delay. Also has a cool feedback colouration circuit
+    for saturating the repeats in various ways."
 
   - item-name: "Soundtoys Echoboy"
     item-description: "Indispensable delay. Sounds really smooth and blends with the source quite nicely.
-    The memory man emulation is excellent."
+    The Memory Man emulation is excellent."
 
 - category: "Synth Plugins"
   items:
   - item-name: "d16 Lush-101"
-    item-description: "Sounds like an analog polysynth but with 1,000,000 modulation options and controls and layers
-    and all of those things."
+    item-description: "Really good. Sounds like an analog polysynth but with a ton of modulation options
+    and controls and layers and all of those things."
