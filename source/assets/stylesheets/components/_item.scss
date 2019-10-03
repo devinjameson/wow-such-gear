@@ -9,7 +9,11 @@
 
 .item__id {
   position: relative;
-  bottom: 5rem;
+  bottom: 10rem;
+
+  @include breakpoint("medium") {
+    bottom: 5rem;
+  }
 }
 
 .item__name {
