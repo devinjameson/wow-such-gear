@@ -8,7 +8,8 @@
   }
 }
 
-.menu-button, .menu-button:hover {
+.menu-button,
+.menu-button:hover {
   background-color: $color-white-grey;
   border: 3px solid $color-simple-red;
   border-radius: 1.5rem;
@@ -20,15 +21,14 @@
   top: 10px;
   z-index: $z-index-level-3;
 
-  &.menu-open {
-
-    &:before {
-      content: 'Hide ';
-    }
-  }
-
   @include breakpoint("medium") {
     display: none;
+  }
+
+  &.menu-open {
+    &::before {
+      content: 'Hide ';
+    }
   }
 }
 
@@ -45,29 +45,29 @@
   top: 0;
   z-index: $z-index-level-2;
 
-  &::-webkit-scrollbar { 
-    display: none;
-    height: 0;
-    width: 0;
-  }
-
   @include breakpoint("medium") {
-    border-top: 1px solid $color-mid-grey;
     border-bottom: 1px solid $color-mid-grey;
+    border-top: 1px solid $color-mid-grey;
     display: block;
     height: calc(75vh - 12rem);
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
     padding: 0 6px 0;
-    position: static;    
+    position: static;
     text-align: left;
     width: auto;
+  }
+
+
+  &::-webkit-scrollbar {
+    display: none;
+    height: 0;
+    width: 0;
   }
 }
 
 .scroll-arrow {
-
-  &:after {
+  &::after {
     animation: arrow-bounce 3.5s;
     animation-delay: 1.5s;
     animation-iteration-count: infinite;
@@ -88,12 +88,29 @@
 }
 
 @keyframes arrow-bounce {
-  0% { bottom: -15px; }
-  6.25% { bottom: -25px; }
-  12.5% { bottom: -15px; }
-  18.75% { bottom: -25px; }
-  25% { bottom: -15px; }
-  100% { bottom: -15px; }
+  0% {
+    bottom: -15px;
+  }
+
+  6.25% {
+    bottom: -25px;
+  }
+
+  12.5% {
+    bottom: -15px;
+  }
+
+  18.75% {
+    bottom: -25px;
+  }
+
+  25% {
+    bottom: -15px;
+  }
+
+  100% {
+    bottom: -15px;
+  }
 }
 
 .nav__list {
@@ -111,7 +128,7 @@
   font-weight: 500;
   margin-bottom: $spacing-half;
 
-  & > a {
+  > a {
     color: inherit;
   }
 
@@ -125,7 +142,7 @@
   font-size: 0.95rem;
   margin-bottom: $spacing-half;
 
-  & > a {
+  > a {
     color: inherit;
 
     @include breakpoint("medium") {
