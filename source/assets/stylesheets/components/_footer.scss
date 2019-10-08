@@ -4,17 +4,17 @@
   padding: $base-spacing 0 $base-spacing;
   text-align: left;
 
-  &:before {
+  @include breakpoint("small") {
+    padding-top: $spacing-2x;
+  }
+
+  &::before {
     background-color: $color-dark-grey;
     content: "";
     display: block;
     height: 2px;
     margin: 0 0 $spacing-2x;
     width: 2rem;
-  }
-
-  @include breakpoint("small") {
-    padding-top: $spacing-2x;
   }
 
   img {
@@ -24,7 +24,7 @@
 
   p {
     margin: 0 0 $base-spacing;
-    max-width: $spacing-big - 4; 
+    max-width: $spacing-big - 4;
   }
 
   .copyright {

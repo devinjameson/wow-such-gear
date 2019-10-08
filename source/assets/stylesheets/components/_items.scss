@@ -21,8 +21,8 @@
 }
 
 .item-category-title__id {
-  position: relative;
   bottom: 15rem;
+  position: relative;
 
   @include breakpoint("medium") {
     bottom: 10rem;
